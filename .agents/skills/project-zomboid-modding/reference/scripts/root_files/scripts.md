@@ -1,0 +1,20 @@
+
+# ROOT-Scripts
+
+- **Soft Override:** Unknown
+
+- **Is Root:** True
+
+- **Root patterns:** `media\/scripts\/[\s\S]+\.txt$`
+
+The root of a script file. Blocks than need to be in the root of the document should have this as parent.
+
+## Hierarchy
+
+This block can have the following child blocks:
+
+- [module ](#scripts-module)
+
+## Parameters
+
+This block has no parameters.

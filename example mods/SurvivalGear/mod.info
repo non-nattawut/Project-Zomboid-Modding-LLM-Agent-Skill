@@ -1,0 +1,12 @@
+name=Survival Gear Mod
+id=SurvivalGear
+description=High-quality tactical survival equipment and crafting for Project Zomboid (Build 42 / 40.20.4).
+poster=poster.png
+icon=icon.png
+versionMin=42.0
+versionMax=42.99
+author=AgentSkillTeam
+category=features
+modversion=1.0.0
+require=
+incompatible=

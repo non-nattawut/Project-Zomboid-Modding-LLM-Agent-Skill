@@ -1,0 +1,13 @@
+module MyMod
+{
+    evolvedrecipe SurvivalStew
+    {
+        BaseItem = Base.Pot,
+        MaxItems = 6,
+        ResultItem = MyMod.CustomStewPot,
+        Cookable = true,
+        CookTime = 50,
+        IsSpicy = false,
+        Tags = Cooking;HotFood,
+    }
+}

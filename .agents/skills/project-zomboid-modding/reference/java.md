@@ -1,0 +1,13 @@
+# Java
+
+This documentation provides different data from parsing the decompiled Java code. It does not aim to provide a documentation of the Java API which is the job of the [JavaDocs ](https://demiurgequantified.github.io/ProjectZomboidJavaDocs/).
+
+- **maxdepth:** 1
+- **titlesonly:** 
+
+   java/action_sound_time
+   java/colors
+   java/item_tags
+   java/magazine_subject
+   java/metabolics
+   java/item_body_locations

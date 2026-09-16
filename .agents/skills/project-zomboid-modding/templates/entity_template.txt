@@ -1,0 +1,34 @@
+module MyMod
+{
+    entity AdvancedCraftingStation
+    {
+        component SpriteConfig
+        {
+            sprite = carpentry_02_16,
+            face = E,
+        }
+
+        component UiConfig
+        {
+            uiStyle = workbench,
+            title = UI_AdvancedCraftingStation,
+        }
+
+        component CraftBench
+        {
+            recipeTags = AdvancedCarpentry;Blacksmithing;Weaponsmithing,
+        }
+
+        component Durability
+        {
+            maxCondition = 250,
+            conditionLowerChance = 30,
+        }
+
+        component FluidContainer
+        {
+            capacity = 20.0,
+            fluids = Water;Oil,
+        }
+    }
+}

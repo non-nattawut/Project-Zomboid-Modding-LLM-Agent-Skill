@@ -1,0 +1,34 @@
+module SurvivalGear
+{
+    entity SurvivalWorkstation
+    {
+        component SpriteConfig
+        {
+            sprite = carpentry_02_16,
+            face = E,
+        }
+
+        component UiConfig
+        {
+            uiStyle = workbench,
+            title = UI_SurvivalWorkstation,
+        }
+
+        component CraftBench
+        {
+            recipeTags = Blacksmithing;Tailoring;Survival,
+        }
+
+        component Durability
+        {
+            maxCondition = 300,
+            conditionLowerChance = 25,
+        }
+
+        component FluidContainer
+        {
+            capacity = 25.0,
+            fluids = Water;Petrol,
+        }
+    }
+}

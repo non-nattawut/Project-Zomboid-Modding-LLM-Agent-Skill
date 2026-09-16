@@ -1,0 +1,24 @@
+module MyMod
+{
+    craftRecipe CraftReinforcedMachete
+    {
+        timedAction = Making,
+        Time = 80,
+        category = Blacksmithing,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        xpAward = MetalWelding:15;Maintenance:10,
+        SkillRequired = MetalWelding:3,
+        
+        inputs
+        {
+            item 1 [Base.Machete] mode:destroy flags[Prop1;AllowDestroyedItem],
+            item 2 [Base.SheetMetal] mode:destroy,
+            item 1 tags[BlowTorch] mode:keep flags[Prop2;MayDegradeLight],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 MyMod.CustomMachete,
+        }
+    }
+}

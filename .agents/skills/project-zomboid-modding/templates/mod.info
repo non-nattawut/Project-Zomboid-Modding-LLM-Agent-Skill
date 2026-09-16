@@ -1,0 +1,13 @@
+name=My Awesome Mod
+id=MyAwesomeModID
+description=A comprehensive custom mod for Project Zomboid Build 42 / 40.20.4.
+poster=poster.png
+icon=icon.png
+versionMin=42.0
+versionMax=42.99
+author=YourName
+category=features
+url=https://github.com/yourname/my-awesome-mod
+modversion=1.0.0
+require=
+incompatible=

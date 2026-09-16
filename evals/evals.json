@@ -1,0 +1,23 @@
+{
+  "skill_name": "project-zomboid-modding",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a custom military tactical axe weapon and a craftRecipe to forge it from an axe and scrap metal for Project Zomboid version 40.20.4 / Build 42. Include proper tags, inputs, outputs, and the B42 JSON translation entries.",
+      "expected_output": "PZ script containing item definition with base:weapon, craftRecipe with inputs/outputs, and ItemName_EN.json + Recipes_EN.json entries.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Scaffold a complete Project Zomboid mod named 'ApocalypseMedical' with custom disinfectant bandages, craft recipes, and a client Lua script adding a context menu option to inspect medical supplies.",
+      "expected_output": "Complete mod folder with mod.info, media/scripts, media/lua, and media/lua/translations JSON files.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Create a custom entity craftbench called 'SmithingAnvil' in Project Zomboid Build 42 using the entity and component syntax (SpriteConfig, CraftBench, and Durability).",
+      "expected_output": "PZ script defining entity SmithingAnvil with components SpriteConfig, CraftBench, and Durability.",
+      "files": []
+    }
+  ]
+}

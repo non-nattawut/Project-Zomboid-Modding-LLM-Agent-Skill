@@ -1,0 +1,46 @@
+module SurvivalGear
+{
+    craftRecipe CraftTacticalMachete
+    {
+        timedAction = Making,
+        Time = 90,
+        category = Blacksmithing,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        xpAward = MetalWelding:20;Maintenance:10,
+        SkillRequired = MetalWelding:3,
+        inputs
+        {
+            item 1 [Base.Machete] mode:destroy flags[Prop1;AllowDestroyedItem],
+            item 2 [Base.SheetMetal] mode:destroy,
+            item 1 [Base.DuctTape] mode:destroy,
+            item 1 tags[BlowTorch] mode:keep flags[Prop2;MayDegradeLight],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 SurvivalGear.TacticalCombatMachete,
+        }
+    }
+
+    craftRecipe CraftTacticalVest
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        xpAward = Tailoring:25;Maintenance:5,
+        SkillRequired = Tailoring:4,
+        inputs
+        {
+            item 1 [Base.Vest_BulletCivilian;Base.Vest_BulletPolice] mode:destroy flags[Prop1],
+            item 4 [Base.LeatherStrips] mode:destroy,
+            item 2 [Base.Thread] mode:destroy,
+            item 1 tags[Needle] mode:keep flags[MayDegradeLight],
+            item 1 tags[Scissors] mode:keep,
+        }
+        outputs
+        {
+            item 1 SurvivalGear.TacticalAssaultVest,
+        }
+    }
+}

@@ -1,0 +1,81 @@
+module MyMod
+{
+    imports
+    {
+        Base
+    }
+
+    /* Standard Crafting Material */
+    item CustomMaterial
+    {
+        ItemType = base:normal,
+        DisplayName = Custom Material,
+        Icon = CustomMaterialIcon,
+        Weight = 0.5,
+        MetalValue = 10,
+        Tags = InHandCraft;MetalPiece,
+        DisplayCategory = Material,
+    }
+
+    /* Melee Weapon */
+    item CustomMachete
+    {
+        ItemType = base:weapon,
+        DisplayName = Reinforced Combat Machete,
+        Icon = MacheteCustom,
+        Weight = 1.8,
+        ConditionMax = 18,
+        ConditionLowerChanceOneIn = 20,
+        Categories = LongBlade,
+        SubCategory = Slash,
+        Tags = SharpKnife;CutPlant;HeavyItem,
+        MinDamage = 1.2,
+        MaxDamage = 2.4,
+        CriticalChance = 25,
+        CritDmgMultiplier = 3,
+        MinRange = 0.6,
+        MaxRange = 1.2,
+        BaseSpeed = 1.0,
+        HitSound = BladeHit,
+        SwingSound = BladeSwing,
+        DoorDamage = 8,
+        TreeDamage = 2,
+    }
+
+    /* Consumable Food */
+    item SurvivalRation
+    {
+        ItemType = base:food,
+        DisplayName = Military Survival Ration,
+        Icon = SurvivalRation,
+        Weight = 0.3,
+        HungerChange = -40,
+        ThirstChange = -15,
+        UnhappyChange = -10,
+        Calories = 1200,
+        Carbohydrates = 150,
+        Proteins = 60,
+        Lipids = 40,
+        CannedFood = true,
+        Packaged = true,
+        DaysFresh = 365,
+        DaysTotallyRotten = 730,
+        DisplayCategory = Food,
+    }
+
+    /* Wearable Container (Backpack) */
+    item TacticalBackpack
+    {
+        ItemType = base:container,
+        DisplayName = Tactical Assault Backpack,
+        Icon = TacticalBackpack,
+        Weight = 1.5,
+        Capacity = 35,
+        WeightReduction = 85,
+        CanBeEquipped = Back,
+        BodyLocation = Back,
+        OpenSound = OpenBag,
+        CloseSound = CloseBag,
+        DisplayCategory = Container,
+    }
+}

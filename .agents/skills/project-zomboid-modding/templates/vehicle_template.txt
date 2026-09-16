@@ -1,0 +1,38 @@
+module MyMod
+{
+    vehicle ArmoredVan
+    {
+        model
+        {
+            file = Vehicles_Van,
+            scale = 1.0,
+        }
+
+        mass = 2200,
+        engineRPMType = van,
+        engineForce = 4500,
+        maxSpeed = 90.0,
+
+        part Engine
+        {
+            category = engine,
+            lua
+            {
+                create = Vehicles.Create.Default,
+                init = Vehicles.Init.Engine,
+            }
+        }
+
+        part SeatFrontLeft
+        {
+            category = passenger,
+            passenger = 0,
+        }
+
+        part SeatFrontRight
+        {
+            category = passenger,
+            passenger = 1,
+        }
+    }
+}

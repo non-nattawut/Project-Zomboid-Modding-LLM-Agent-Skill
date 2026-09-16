@@ -1,0 +1,83 @@
+module SurvivalGear
+{
+    imports
+    {
+        Base
+    }
+
+    item TacticalCombatMachete
+    {
+        ItemType = base:weapon,
+        DisplayName = Tactical Combat Machete,
+        Icon = MacheteCustom,
+        Weight = 1.6,
+        ConditionMax = 18,
+        ConditionLowerChanceOneIn = 20,
+        Categories = LongBlade,
+        SubCategory = Slash,
+        Tags = SharpKnife;CutPlant;HeavyItem;ButcherAnimal,
+        MinDamage = 1.3,
+        MaxDamage = 2.5,
+        CriticalChance = 30,
+        CritDmgMultiplier = 3,
+        MinRange = 0.65,
+        MaxRange = 1.25,
+        BaseSpeed = 1.05,
+        HitSound = BladeHit,
+        SwingSound = BladeSwing,
+        DoorDamage = 10,
+        TreeDamage = 2,
+        DisplayCategory = Weapon,
+    }
+
+    item SurvivalEmergencyRation
+    {
+        ItemType = base:food,
+        DisplayName = Military Emergency Ration,
+        Icon = SurvivalRation,
+        Weight = 0.35,
+        HungerChange = -45,
+        ThirstChange = -10,
+        UnhappyChange = -15,
+        Calories = 1350,
+        Carbohydrates = 160,
+        Proteins = 55,
+        Lipids = 45,
+        CannedFood = true,
+        Packaged = true,
+        DaysFresh = 365,
+        DaysTotallyRotten = 730,
+        DisplayCategory = Food,
+    }
+
+    item TacticalAssaultVest
+    {
+        ItemType = base:clothing,
+        DisplayName = Tactical Assault Vest,
+        Icon = TacticalVest,
+        Weight = 1.8,
+        BodyLocation = TorsoExtra,
+        BiteDefense = 40,
+        ScratchDefense = 60,
+        BulletDefense = 70,
+        Insulation = 0.4,
+        Windresistance = 0.5,
+        WaterResistance = 0.6,
+        ConditionMax = 25,
+        ConditionLowerChanceOneIn = 25,
+        DisplayCategory = Clothing,
+    }
+
+    item SurvivalCanteen
+    {
+        ItemType = base:drainable,
+        DisplayName = Heavy-Duty Survival Canteen,
+        Icon = CanteenMetal,
+        Weight = 0.5,
+        UseDelta = 0.1,
+        UseWhileEquipped = false,
+        DisappearOnUse = false,
+        RainFactor = 1.0,
+        DisplayCategory = Container,
+    }
+}

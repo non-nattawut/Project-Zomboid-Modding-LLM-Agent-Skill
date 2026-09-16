@@ -1,0 +1,3917 @@
+{
+  "metadata": {
+    "title": "Project Zomboid Modding Search Vocabulary & Taxonomy",
+    "game_version": "40.20.4 / Build 42.20.4",
+    "description": "Guided taxonomy of search parameters, blocks, tags, item types, components, flags, and translation types. Extensible: agents can append new search terms when discovered."
+  },
+  "blocks": {
+    "alias": {
+      "term": "alias",
+      "file": "scripts/alias.md",
+      "description": "Defines an alias for a list of tiles. This can be directly be refered to in [rule ](https://pz-wiki-modding.github.io/PZ"
+    },
+    "anim": {
+      "term": "anim",
+      "file": "scripts/anim.md",
+      "description": "No description provided."
+    },
+    "animation": {
+      "term": "animation",
+      "file": "scripts/animation.md",
+      "description": "It is unknown what this block does."
+    },
+    "animationsmesh": {
+      "term": "animationsmesh",
+      "file": "scripts/animationsmesh.md",
+      "description": "Defines an animated mesh, usually for characters or animals."
+    },
+    "area": {
+      "term": "area",
+      "file": "scripts/area.md",
+      "description": "No description provided."
+    },
+    "attachment": {
+      "term": "attachment",
+      "file": "scripts/attachment.md",
+      "description": "Defines an attachment point on a [model ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html) or [vehicle "
+    },
+    "blend": {
+      "term": "blend",
+      "file": "scripts/blend.md",
+      "description": "Used to define blend rules for the [mapping tools ](https://pzwiki.net/wiki/Mapping#Mapping_tools) painting tool."
+    },
+    "blendblacklist": {
+      "term": "blendblacklist",
+      "file": "scripts/blendblacklist.md",
+      "description": "BlendWhiteList defines a whitelist for fluids that the fluid can be blended with, while BlendBlackList defines a blackli"
+    },
+    "blendwhitelist": {
+      "term": "blendwhitelist",
+      "file": "scripts/blendwhitelist.md",
+      "description": "BlendWhiteList defines a whitelist for fluids that the fluid can be blended with, while BlendBlackList defines a blackli"
+    },
+    "box": {
+      "term": "box",
+      "file": "scripts/box.md",
+      "description": "[box ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html)\\ , [cylinder ](https://pz-wiki-modding.github.io/"
+    },
+    "categories": {
+      "term": "categories",
+      "file": "scripts/categories.md",
+      "description": "Acts as a sort of tag list. Notably used in fluid scripts. Doesn't have parameters and instead just functions as a list."
+    },
+    "character_profession_definition": {
+      "term": "character_profession_definition",
+      "file": "scripts/character_profession_definition.md",
+      "description": "Defines a character profession."
+    },
+    "character_trait_definition": {
+      "term": "character_trait_definition",
+      "file": "scripts/character_trait_definition.md",
+      "description": "Defines a character trait."
+    },
+    "clip": {
+      "term": "clip",
+      "file": "scripts/clip.md",
+      "description": "Defines a clip to be used in a [sound script ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html)\\ , whic"
+    },
+    "clock": {
+      "term": "clock",
+      "file": "scripts/clock.md",
+      "description": "No description provided."
+    },
+    "colors": {
+      "term": "colors",
+      "file": "scripts/colors.md",
+      "description": "Used to create a new color definition which can be then be used in other blocks. Those colors are added to the available"
+    },
+    "component": {
+      "term": "component",
+      "file": "scripts/component.md",
+      "description": "A component is a block which can be added as a child to a specific block type like an item, vehicle etc, to provide addi"
+    },
+    "components": {
+      "term": "components",
+      "file": "scripts/components.md",
+      "description": "No description provided."
+    },
+    "container": {
+      "term": "container",
+      "file": "scripts/container.md",
+      "description": "No description provided."
+    },
+    "contextentry": {
+      "term": "contextentry",
+      "file": "scripts/contextentry.md",
+      "description": "No description provided."
+    },
+    "copyframe": {
+      "term": "copyframe",
+      "file": "scripts/copyframe.md",
+      "description": "It is unknown what this block does."
+    },
+    "copyframes": {
+      "term": "copyframes",
+      "file": "scripts/copyframes.md",
+      "description": "It is unknown what this block does."
+    },
+    "craftrecipe": {
+      "term": "craftrecipe",
+      "file": "scripts/craftrecipe.md",
+      "description": "The 'craftRecipe' script block is used to define a crafting recipe, which allows players to craft items or tiles in the "
+    },
+    "crawlthroughwheel": {
+      "term": "crawlthroughwheel",
+      "file": "scripts/crawlthroughwheel.md",
+      "description": "Similar implementation as a [wheel ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/wheel.html)\\ , but unclear wh"
+    },
+    "cylinder": {
+      "term": "cylinder",
+      "file": "scripts/cylinder.md",
+      "description": "[box ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html)\\ , [cylinder ](https://pz-wiki-modding.github.io/"
+    },
+    "data": {
+      "term": "data",
+      "file": "scripts/data.md",
+      "description": "No description provided."
+    },
+    "door": {
+      "term": "door",
+      "file": "scripts/door.md",
+      "description": "No description provided."
+    },
+    "energy": {
+      "term": "energy",
+      "file": "scripts/energy.md",
+      "description": "No description provided."
+    },
+    "entity": {
+      "term": "entity",
+      "file": "scripts/entity.md",
+      "description": "Defines a tile with special properties."
+    },
+    "evolvedrecipe": {
+      "term": "evolvedrecipe",
+      "file": "scripts/evolvedrecipe.md",
+      "description": "Defines a dynamic recipe where items can be added in as ingredients in multiple steps. This is notably used to define so"
+    },
+    "face": {
+      "term": "face",
+      "file": "scripts/face.md",
+      "description": "No description provided."
+    },
+    "fixing": {
+      "term": "fixing",
+      "file": "scripts/fixing.md",
+      "description": "Defines how an item can be repaired or fixed."
+    },
+    "fluid": {
+      "term": "fluid",
+      "file": "scripts/fluid.md",
+      "description": "Create a new fluid definition. Different properties can be provided for the fluid v ia the use of different children blo"
+    },
+    "fluids": {
+      "term": "fluids",
+      "file": "scripts/fluids.md",
+      "description": "Used to make a list of fluids to appear in a [FluidContainer component ](https://pz-wiki-modding.github.io/PZ-API-Docs/s"
+    },
+    "group": {
+      "term": "group",
+      "file": "scripts/group.md",
+      "description": "No description provided."
+    },
+    "hand": {
+      "term": "hand",
+      "file": "scripts/hand.md",
+      "description": "No description provided."
+    },
+    "imports": {
+      "term": "imports",
+      "file": "scripts/imports.md",
+      "description": "By importing a module, you give your scripts direct access to the elements from these modules, and you can use item IDs "
+    },
+    "inputs": {
+      "term": "inputs",
+      "file": "scripts/inputs.md",
+      "description": "No description provided."
+    },
+    "isbasecomponentpanel": {
+      "term": "isbasecomponentpanel",
+      "file": "scripts/isbasecomponentpanel.md",
+      "description": "No description provided."
+    },
+    "istablelayoutcell": {
+      "term": "istablelayoutcell",
+      "file": "scripts/istablelayoutcell.md",
+      "description": "No description provided."
+    },
+    "item": {
+      "term": "item",
+      "file": "scripts/item.md",
+      "description": "The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this "
+    },
+    "itemmapper": {
+      "term": "itemmapper",
+      "file": "scripts/itemmapper.md",
+      "description": "No description provided."
+    },
+    "layer": {
+      "term": "layer",
+      "file": "scripts/layer.md",
+      "description": "No description provided."
+    },
+    "layers": {
+      "term": "layers",
+      "file": "scripts/layers.md",
+      "description": "Used to define the default layers of a new TMX file."
+    },
+    "lightbar": {
+      "term": "lightbar",
+      "file": "scripts/lightbar.md",
+      "description": "No description provided."
+    },
+    "lua": {
+      "term": "lua",
+      "file": "scripts/lua.md",
+      "description": "No description provided."
+    },
+    "mannequin": {
+      "term": "mannequin",
+      "file": "scripts/mannequin.md",
+      "description": "Used to define [mannequins ](https://pzwiki.net/wiki/Mannequin)\\ , which can be used in [mapping ](https://pzwiki.net/wi"
+    },
+    "maps": {
+      "term": "maps",
+      "file": "scripts/maps.md",
+      "description": "A list of maps in the [default.txt ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root_files/default.html) file"
+    },
+    "model": {
+      "term": "model",
+      "file": "scripts/model.md",
+      "description": "Used to define a model properties so it can be used in other elements of the game, most notably in [items ](https://pz-w"
+    },
+    "mods": {
+      "term": "mods",
+      "file": "scripts/mods.md",
+      "description": "A list of mods in the [default.txt ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root_files/default.html) file"
+    },
+    "module": {
+      "term": "module",
+      "file": "scripts/module.md",
+      "description": "A module serves as a namespace for your scripts and is the barebone for most scripts you will create in your mod. The ga"
+    },
+    "option": {
+      "term": "option",
+      "file": "scripts/option.md",
+      "description": "Defines a custom sandbox option for a mod. You can find more information about sandbox options [here ](https://pzwiki.ne"
+    },
+    "outputs": {
+      "term": "outputs",
+      "file": "scripts/outputs.md",
+      "description": "The `outputs` block defines the items that will be created when the recipe is finished. Outputs are listed one after the"
+    },
+    "overlaymapper": {
+      "term": "overlaymapper",
+      "file": "scripts/overlaymapper.md",
+      "description": "No description provided."
+    },
+    "part": {
+      "term": "part",
+      "file": "scripts/part.md",
+      "description": "No description provided."
+    },
+    "passenger": {
+      "term": "passenger",
+      "file": "scripts/passenger.md",
+      "description": "Defines a passenger position in a vehicle script."
+    },
+    "physics": {
+      "term": "physics",
+      "file": "scripts/physics.md",
+      "description": "No description provided."
+    },
+    "physicshitreaction": {
+      "term": "physicshitreaction",
+      "file": "scripts/physicshitreaction.md",
+      "description": "Defines the physics reaction a bullet or bomb imposes to objects."
+    },
+    "physicsshape": {
+      "term": "physicsshape",
+      "file": "scripts/physicsshape.md",
+      "description": "Defines a 3D object's physical shape to be used as a world object."
+    },
+    "poison": {
+      "term": "poison",
+      "file": "scripts/poison.md",
+      "description": "Defines poison properties for a fluid script."
+    },
+    "polygon": {
+      "term": "polygon",
+      "file": "scripts/polygon.md",
+      "description": "[box ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html)\\ , [cylinder ](https://pz-wiki-modding.github.io/"
+    },
+    "position": {
+      "term": "position",
+      "file": "scripts/position.md",
+      "description": "No description provided."
+    },
+    "progress": {
+      "term": "progress",
+      "file": "scripts/progress.md",
+      "description": "No description provided."
+    },
+    "properties": {
+      "term": "properties",
+      "file": "scripts/properties.md",
+      "description": "Define stat changes applied to the player drinking this [fluid ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/f"
+    },
+    "ragdoll": {
+      "term": "ragdoll",
+      "file": "scripts/ragdoll.md",
+      "description": "Defines the ragdoll properties of a bone."
+    },
+    "root_files": {
+      "term": "root_files",
+      "file": "scripts/root_files.md",
+      "description": "Root files are the base files that contain the script block and their parameters. Different script blocks go in differen"
+    },
+    "rule": {
+      "term": "rule",
+      "file": "scripts/rule.md",
+      "description": "A `rule` block defines a conversion rule for the [BMP to TMX ](https://pzwiki.net/wiki/BMP_to_TMX) conversion process in"
+    },
+    "skin": {
+      "term": "skin",
+      "file": "scripts/skin.md",
+      "description": "No description provided."
+    },
+    "sound": {
+      "term": "sound",
+      "file": "scripts/sound.md",
+      "description": "Makes one or more sound clips available for use in the game. Multiple clips can be added to a sound script, and the game"
+    },
+    "soundtimeline": {
+      "term": "soundtimeline",
+      "file": "scripts/soundtimeline.md",
+      "description": "No description provided."
+    },
+    "spritemodel": {
+      "term": "spritemodel",
+      "file": "scripts/spritemodel.md",
+      "description": "Used to define tileset properties."
+    },
+    "style": {
+      "term": "style",
+      "file": "scripts/style.md",
+      "description": "No description provided."
+    },
+    "switchseat": {
+      "term": "switchseat",
+      "file": "scripts/switchseat.md",
+      "description": "No description provided."
+    },
+    "table": {
+      "term": "table",
+      "file": "scripts/table.md",
+      "description": "No description provided."
+    },
+    "template": {
+      "term": "template",
+      "file": "scripts/template.md",
+      "description": "No description provided."
+    },
+    "tile": {
+      "term": "tile",
+      "file": "scripts/tile.md",
+      "description": "Defines some tile properties of a specific tile on a tileset."
+    },
+    "tilegeometry": {
+      "term": "tilegeometry",
+      "file": "scripts/root_files/tilegeometry.md",
+      "description": "The `tileGeometry.txt` file is used to register the tile depth of tiles. The file needs to be located inside the [common"
+    },
+    "tileset": {
+      "term": "tileset",
+      "file": "scripts/tileset.md",
+      "description": "Used to define properties of tiles of tilesets."
+    },
+    "timedaction": {
+      "term": "timedaction",
+      "file": "scripts/timedaction.md",
+      "description": "The timedAction script block is used to define an action which can be used in [craftRecipes ](https://pz-wiki-modding.gi"
+    },
+    "vehicle": {
+      "term": "vehicle",
+      "file": "scripts/vehicle.md",
+      "description": "Defines a vehicle."
+    },
+    "vehicleenginerpm": {
+      "term": "vehicleenginerpm",
+      "file": "scripts/vehicleenginerpm.md",
+      "description": "Unclear how the definition of this block works."
+    },
+    "wheel": {
+      "term": "wheel",
+      "file": "scripts/wheel.md",
+      "description": "Defines the wheels of a vehicle. While the ID can technically be anything, only the IDs 'FrontLeft', 'FrontRight', 'Rear"
+    },
+    "whitelist": {
+      "term": "whitelist",
+      "file": "scripts/whitelist.md",
+      "description": "Whitelists a fluid to be allowed to put inside a [fluid container ](https://pz-wiki-modding.github.io/PZ-API-Docs/script"
+    },
+    "window": {
+      "term": "window",
+      "file": "scripts/window.md",
+      "description": "No description provided."
+    },
+    "xuiskin": {
+      "term": "xuiskin",
+      "file": "scripts/xuiskin.md",
+      "description": "Defines a XUI interface skin."
+    },
+    "_component_block": {
+      "term": "_component_block",
+      "file": "scripts/_component_block.md",
+      "description": "Component blocks are used in the [components ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/components.html) bl"
+    },
+    "blends": {
+      "term": "blends",
+      "file": "scripts/root_files/blends.md",
+      "description": "The `Blends.txt` file is used in the [mapping tools ](https://pzwiki.net/wiki/Mapping#Mapping_tools) to assign blend til"
+    },
+    "default": {
+      "term": "default",
+      "file": "scripts/root_files/default.md",
+      "description": "The default.txt file is used to select the mods and maps that will be loaded by the game."
+    },
+    "mapbasexml": {
+      "term": "mapbasexml",
+      "file": "scripts/root_files/mapbasexml.md",
+      "description": "The `MapBaseXML.txt` file is used to configure the layers of the TMX file."
+    },
+    "mapinfo": {
+      "term": "mapinfo",
+      "file": "scripts/root_files/mapinfo.md",
+      "description": "The `map.info` file is used to define the map's information. It is used by the game to display the map in the map select"
+    },
+    "modinfo": {
+      "term": "modinfo",
+      "file": "scripts/root_files/modinfo.md",
+      "description": "The `mod.info` file, which contains all the information about a mod. It needs to be located alongside the media folder. "
+    },
+    "rules": {
+      "term": "rules",
+      "file": "scripts/root_files/rules.md",
+      "description": "The `Rules.txt` file is used in the [mapping tools ](https://pzwiki.net/wiki/Mapping#Mapping_tools) to define new [BMP t"
+    },
+    "sandboxoptions": {
+      "term": "sandboxoptions",
+      "file": "scripts/root_files/sandboxoptions.md",
+      "description": "The root of a sandbox options file. The file should be stored in the following path:"
+    },
+    "scripts": {
+      "term": "scripts",
+      "file": "scripts/root_files/scripts.md",
+      "description": "The root of a script file. Blocks than need to be in the root of the document should have this as parent."
+    },
+    "spritemodels": {
+      "term": "spritemodels",
+      "file": "scripts/root_files/spritemodels.md",
+      "description": "The `spriteModels.txt` file is used to register [models ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.ht"
+    },
+    "tmxconfig": {
+      "term": "tmxconfig",
+      "file": "scripts/root_files/tmxconfig.md",
+      "description": "The `TMXconfig.txt` file is used to configure the default layers which will be created in the TMX file."
+    }
+  },
+  "item_types": {
+    "normal": {
+      "term": "base:normal",
+      "description": "Standard items, crafting ingredients, miscellaneous goods"
+    },
+    "weapon": {
+      "term": "base:weapon",
+      "description": "Hand weapons, melee weapons (blades, blunts), ranged firearms"
+    },
+    "food": {
+      "term": "base:food",
+      "description": "Edible and perishable items with nutritional values"
+    },
+    "container": {
+      "term": "base:container",
+      "description": "Wearable bags, backpacks, pouches, boxes, cases"
+    },
+    "drainable": {
+      "term": "base:drainable",
+      "description": "Items with limited uses, fluids, batteries, thread, glue"
+    },
+    "clothing": {
+      "term": "base:clothing",
+      "description": "Wearable clothing, helmets, vests, armor with protection values"
+    },
+    "key": {
+      "term": "base:key",
+      "description": "Keys matching doors, vehicles, or padlocks"
+    },
+    "alarmclock": {
+      "term": "base:alarmclock",
+      "description": "Alarm clocks and watches with timer/beeping mechanics"
+    },
+    "radio": {
+      "term": "base:radio",
+      "description": "Two-way radios, walkie-talkies, and televisions"
+    },
+    "map": {
+      "term": "base:map",
+      "description": "In-game maps with cartography annotations"
+    },
+    "literature": {
+      "term": "base:literature",
+      "description": "Books, magazines, skill manuals, recipe learning items"
+    }
+  },
+  "components": {
+    "contextmenuconfig": {
+      "term": "contextmenuconfig",
+      "file": "scripts/component/component-contextmenuconfig.md",
+      "description": "No description provided."
+    },
+    "craftbench": {
+      "term": "craftbench",
+      "file": "scripts/component/component-craftbench.md",
+      "description": "Used to add a crafting bench property to an [entity ](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html)"
+    },
+    "craftbenchsounds": {
+      "term": "craftbenchsounds",
+      "file": "scripts/component/component-craftbenchsounds.md",
+      "description": "No description provided."
+    },
+    "craftrecipe": {
+      "term": "craftrecipe",
+      "file": "scripts/component/component-craftrecipe.md",
+      "description": "No description provided."
+    },
+    "dryingcraftlogic": {
+      "term": "dryingcraftlogic",
+      "file": "scripts/component/component-dryingcraftlogic.md",
+      "description": "No description provided."
+    },
+    "durability": {
+      "term": "durability",
+      "file": "scripts/component/component-durability.md",
+      "description": "No description provided."
+    },
+    "fluidcontainer": {
+      "term": "fluidcontainer",
+      "file": "scripts/component/component-fluidcontainer.md",
+      "description": "Adds a fluid container to an item"
+    },
+    "resources": {
+      "term": "resources",
+      "file": "scripts/component/component-resources.md",
+      "description": "No description provided."
+    },
+    "spriteconfig": {
+      "term": "spriteconfig",
+      "file": "scripts/component/component-spriteconfig.md",
+      "description": "No description provided."
+    },
+    "spriteoverlayconfig": {
+      "term": "spriteoverlayconfig",
+      "file": "scripts/component/component-spriteoverlayconfig.md",
+      "description": "No description provided."
+    },
+    "uiconfig": {
+      "term": "uiconfig",
+      "file": "scripts/component/component-uiconfig.md",
+      "description": "No description provided."
+    },
+    "wallcoveringconfig": {
+      "term": "wallcoveringconfig",
+      "file": "scripts/component/component-wallcoveringconfig.md",
+      "description": "No description provided."
+    }
+  },
+  "tags": {
+    "aerosol": {
+      "term": "aerosol",
+      "script_name": "base:aerosol",
+      "java_field": "ItemTag.AEROSOL",
+      "description": "Tag for aerosol"
+    },
+    "alcoholicbeverage": {
+      "term": "alcoholicbeverage",
+      "script_name": "base:alcoholicbeverage",
+      "java_field": "ItemTag.ALCOHOLIC_BEVERAGE",
+      "description": "Tag for alcoholicbeverage"
+    },
+    "alreadybroken": {
+      "term": "alreadybroken",
+      "script_name": "base:alreadybroken",
+      "java_field": "ItemTag.ALREADY_BROKEN",
+      "description": "Tag for alreadybroken"
+    },
+    "alreadycooked": {
+      "term": "alreadycooked",
+      "script_name": "base:alreadycooked",
+      "java_field": "ItemTag.ALREADY_COOKED",
+      "description": "Tag for alreadycooked"
+    },
+    "aluminum": {
+      "term": "aluminum",
+      "script_name": "base:aluminum",
+      "java_field": "ItemTag.ALUMINUM",
+      "description": "Tag for aluminum"
+    },
+    "alwayshasstuff": {
+      "term": "alwayshasstuff",
+      "script_name": "base:alwayshasstuff",
+      "java_field": "ItemTag.ALWAYS_HAS_STUFF",
+      "description": "Tag for alwayshasstuff"
+    },
+    "amethystjewellery": {
+      "term": "amethystjewellery",
+      "script_name": "base:amethystjewellery",
+      "java_field": "ItemTag.AMETHYST_JEWELLERY",
+      "description": "Tag for amethystjewellery"
+    },
+    "ammo": {
+      "term": "ammo",
+      "script_name": "base:ammo",
+      "java_field": "ItemTag.AMMO",
+      "description": "Tag for ammo"
+    },
+    "ammocase": {
+      "term": "ammocase",
+      "script_name": "base:ammocase",
+      "java_field": "ItemTag.AMMO_CASE",
+      "description": "Tag for ammocase"
+    },
+    "animalbone": {
+      "term": "animalbone",
+      "script_name": "base:animalbone",
+      "java_field": "ItemTag.ANIMAL_BONE",
+      "description": "Tag for animalbone"
+    },
+    "animalbrain": {
+      "term": "animalbrain",
+      "script_name": "base:animalbrain",
+      "java_field": "ItemTag.ANIMAL_BRAIN",
+      "description": "Tag for animalbrain"
+    },
+    "animalcorpse": {
+      "term": "animalcorpse",
+      "script_name": "base:animalcorpse",
+      "java_field": "ItemTag.ANIMAL_CORPSE",
+      "description": "Tag for animalcorpse"
+    },
+    "animalhead": {
+      "term": "animalhead",
+      "script_name": "base:animalhead",
+      "java_field": "ItemTag.ANIMAL_HEAD",
+      "description": "Tag for animalhead"
+    },
+    "animalskull": {
+      "term": "animalskull",
+      "script_name": "base:animalskull",
+      "java_field": "ItemTag.ANIMAL_SKULL",
+      "description": "Tag for animalskull"
+    },
+    "applyownername": {
+      "term": "applyownername",
+      "script_name": "base:applyownername",
+      "java_field": "ItemTag.APPLY_OWNER_NAME",
+      "description": "Tag for applyownername"
+    },
+    "awkwardgloves": {
+      "term": "awkwardgloves",
+      "script_name": "base:awkwardgloves",
+      "java_field": "ItemTag.AWKWARD_GLOVES",
+      "description": "Tag for awkwardgloves"
+    },
+    "awl": {
+      "term": "awl",
+      "script_name": "base:awl",
+      "java_field": "ItemTag.AWL",
+      "description": "Tag for awl"
+    },
+    "bagsfillexception": {
+      "term": "bagsfillexception",
+      "script_name": "base:bagsfillexception",
+      "java_field": "ItemTag.BAGS_FILL_EXCEPTION",
+      "description": "Tag for bagsfillexception"
+    },
+    "bakingfat": {
+      "term": "bakingfat",
+      "script_name": "base:bakingfat",
+      "java_field": "ItemTag.BAKING_FAT",
+      "description": "Tag for bakingfat"
+    },
+    "ballpeenhammer": {
+      "term": "ballpeenhammer",
+      "script_name": "base:ballpeenhammer",
+      "java_field": "ItemTag.BALL_PEEN_HAMMER",
+      "description": "Tag for ballpeenhammer"
+    },
+    "barehands": {
+      "term": "barehands",
+      "script_name": "base:barehands",
+      "java_field": "ItemTag.BARE_HANDS",
+      "description": "Tag for barehands"
+    },
+    "barstock": {
+      "term": "barstock",
+      "script_name": "base:barstock",
+      "java_field": "ItemTag.BAR_STOCK",
+      "description": "Tag for barstock"
+    },
+    "barstockhalf": {
+      "term": "barstockhalf",
+      "script_name": "base:barstockhalf",
+      "java_field": "ItemTag.BAR_STOCK_HALF",
+      "description": "Tag for barstockhalf"
+    },
+    "barstockquarter": {
+      "term": "barstockquarter",
+      "script_name": "base:barstockquarter",
+      "java_field": "ItemTag.BAR_STOCK_QUARTER",
+      "description": "Tag for barstockquarter"
+    },
+    "binding": {
+      "term": "binding",
+      "script_name": "base:binding",
+      "java_field": "ItemTag.BINDING",
+      "description": "Tag for binding"
+    },
+    "birdskull": {
+      "term": "birdskull",
+      "script_name": "base:birdskull",
+      "java_field": "ItemTag.BIRD_SKULL",
+      "description": "Tag for birdskull"
+    },
+    "blade": {
+      "term": "blade",
+      "script_name": "base:blade",
+      "java_field": "ItemTag.BLADE",
+      "description": "Tag for blade"
+    },
+    "block": {
+      "term": "block",
+      "script_name": "base:block",
+      "java_field": "ItemTag.BLOCK",
+      "description": "Tag for block"
+    },
+    "blowerfan": {
+      "term": "blowerfan",
+      "script_name": "base:blowerfan",
+      "java_field": "ItemTag.BLOWER_FAN",
+      "description": "Tag for blowerfan"
+    },
+    "blowtorch": {
+      "term": "blowtorch",
+      "script_name": "base:blowtorch",
+      "java_field": "ItemTag.BLOW_TORCH",
+      "description": "Tag for blowtorch"
+    },
+    "bluepen": {
+      "term": "bluepen",
+      "script_name": "base:bluepen",
+      "java_field": "ItemTag.BLUE_PEN",
+      "description": "Tag for bluepen"
+    },
+    "boltcutters": {
+      "term": "boltcutters",
+      "script_name": "base:boltcutters",
+      "java_field": "ItemTag.BOLT_CUTTERS",
+      "description": "Tag for boltcutters"
+    },
+    "boostsflurecovery": {
+      "term": "boostsflurecovery",
+      "script_name": "base:boostsflurecovery",
+      "java_field": "ItemTag.BOOSTS_FLU_RECOVERY",
+      "description": "Tag for boostsflurecovery"
+    },
+    "bottleopener": {
+      "term": "bottleopener",
+      "script_name": "base:bottleopener",
+      "java_field": "ItemTag.BOTTLE_OPENER",
+      "description": "Tag for bottleopener"
+    },
+    "bowl": {
+      "term": "bowl",
+      "script_name": "base:bowl",
+      "java_field": "ItemTag.BOWL",
+      "description": "Tag for bowl"
+    },
+    "braintan": {
+      "term": "braintan",
+      "script_name": "base:braintan",
+      "java_field": "ItemTag.BRAIN_TAN",
+      "description": "Tag for braintan"
+    },
+    "brake": {
+      "term": "brake",
+      "script_name": "base:brake",
+      "java_field": "ItemTag.BRAKE",
+      "description": "Tag for brake"
+    },
+    "breakfiber": {
+      "term": "breakfiber",
+      "script_name": "base:breakfiber",
+      "java_field": "ItemTag.BREAK_FIBER",
+      "description": "Tag for breakfiber"
+    },
+    "breakonsmithing": {
+      "term": "breakonsmithing",
+      "script_name": "base:breakonsmithing",
+      "java_field": "ItemTag.BREAK_ON_SMITHING",
+      "description": "Tag for breakonsmithing"
+    },
+    "breakwhenwet": {
+      "term": "breakwhenwet",
+      "script_name": "base:breakwhenwet",
+      "java_field": "ItemTag.BREAK_WHEN_WET",
+      "description": "Tag for breakwhenwet"
+    },
+    "brokenglass": {
+      "term": "brokenglass",
+      "script_name": "base:brokenglass",
+      "java_field": "ItemTag.BROKEN_GLASS",
+      "description": "Tag for brokenglass"
+    },
+    "bucket": {
+      "term": "bucket",
+      "script_name": "base:bucket",
+      "java_field": "ItemTag.BUCKET",
+      "description": "Tag for bucket"
+    },
+    "buckle": {
+      "term": "buckle",
+      "script_name": "base:buckle",
+      "java_field": "ItemTag.BUCKLE",
+      "description": "Tag for buckle"
+    },
+    "buildingkey": {
+      "term": "buildingkey",
+      "script_name": "base:buildingkey",
+      "java_field": "ItemTag.BUILDING_KEY",
+      "description": "Tag for buildingkey"
+    },
+    "burlapbag": {
+      "term": "burlapbag",
+      "script_name": "base:burlapbag",
+      "java_field": "ItemTag.BURLAP_BAG",
+      "description": "Tag for burlapbag"
+    },
+    "butcheranimal": {
+      "term": "butcheranimal",
+      "script_name": "base:butcheranimal",
+      "java_field": "ItemTag.BUTCHER_ANIMAL",
+      "description": "Tag for butcheranimal"
+    },
+    "button": {
+      "term": "button",
+      "script_name": "base:button",
+      "java_field": "ItemTag.BUTTON",
+      "description": "Tag for button"
+    },
+    "camera": {
+      "term": "camera",
+      "script_name": "base:camera",
+      "java_field": "ItemTag.CAMERA",
+      "description": "Tag for camera"
+    },
+    "cantcompost": {
+      "term": "cantcompost",
+      "script_name": "base:cantcompost",
+      "java_field": "ItemTag.CANT_COMPOST",
+      "description": "Tag for cantcompost"
+    },
+    "canbedividedinbowls": {
+      "term": "canbedividedinbowls",
+      "script_name": "base:canbedividedinbowls",
+      "java_field": "ItemTag.CAN_BE_DIVIDED_IN_BOWLS",
+      "description": "Tag for canbedividedinbowls"
+    },
+    "canbedyed": {
+      "term": "canbedyed",
+      "script_name": "base:canbedyed",
+      "java_field": "ItemTag.CAN_BE_DYED",
+      "description": "Tag for canbedyed"
+    },
+    "canbewashed": {
+      "term": "canbewashed",
+      "script_name": "base:canbewashed",
+      "java_field": "ItemTag.CAN_BE_WASHED",
+      "description": "Tag for canbewashed"
+    },
+    "caneat": {
+      "term": "caneat",
+      "script_name": "base:caneat",
+      "java_field": "ItemTag.CAN_EAT",
+      "description": "Tag for caneat"
+    },
+    "canopener": {
+      "term": "canopener",
+      "script_name": "base:canopener",
+      "java_field": "ItemTag.CAN_OPENER",
+      "description": "Tag for canopener"
+    },
+    "carpentrychisel": {
+      "term": "carpentrychisel",
+      "script_name": "base:carpentrychisel",
+      "java_field": "ItemTag.CARPENTRY_CHISEL",
+      "description": "Tag for carpentrychisel"
+    },
+    "carvelongstick": {
+      "term": "carvelongstick",
+      "script_name": "base:carvelongstick",
+      "java_field": "ItemTag.CARVE_LONG_STICK",
+      "description": "Tag for carvelongstick"
+    },
+    "carbattery": {
+      "term": "carbattery",
+      "script_name": "base:carbattery",
+      "java_field": "ItemTag.CAR_BATTERY",
+      "description": "Tag for carbattery"
+    },
+    "carkey": {
+      "term": "carkey",
+      "script_name": "base:carkey",
+      "java_field": "ItemTag.CAR_KEY",
+      "description": "Tag for carkey"
+    },
+    "charcoal": {
+      "term": "charcoal",
+      "script_name": "base:charcoal",
+      "java_field": "ItemTag.CHARCOAL",
+      "description": "Tag for charcoal"
+    },
+    "cheese": {
+      "term": "cheese",
+      "script_name": "base:cheese",
+      "java_field": "ItemTag.CHEESE",
+      "description": "Tag for cheese"
+    },
+    "chewingtobacco": {
+      "term": "chewingtobacco",
+      "script_name": "base:chewingtobacco",
+      "java_field": "ItemTag.CHEWING_TOBACCO",
+      "description": "Tag for chewingtobacco"
+    },
+    "choptree": {
+      "term": "choptree",
+      "script_name": "base:choptree",
+      "java_field": "ItemTag.CHOP_TREE",
+      "description": "Tag for choptree"
+    },
+    "chunk": {
+      "term": "chunk",
+      "script_name": "base:chunk",
+      "java_field": "ItemTag.CHUNK",
+      "description": "Tag for chunk"
+    },
+    "claytool": {
+      "term": "claytool",
+      "script_name": "base:claytool",
+      "java_field": "ItemTag.CLAY_TOOL",
+      "description": "Tag for claytool"
+    },
+    "cleanstains": {
+      "term": "cleanstains",
+      "script_name": "base:cleanstains",
+      "java_field": "ItemTag.CLEAN_STAINS",
+      "description": "Tag for cleanstains"
+    },
+    "clearashes": {
+      "term": "clearashes",
+      "script_name": "base:clearashes",
+      "java_field": "ItemTag.CLEAR_ASHES",
+      "description": "Tag for clearashes"
+    },
+    "clubhammer": {
+      "term": "clubhammer",
+      "script_name": "base:clubhammer",
+      "java_field": "ItemTag.CLUB_HAMMER",
+      "description": "Tag for clubhammer"
+    },
+    "coffeemaker": {
+      "term": "coffeemaker",
+      "script_name": "base:coffeemaker",
+      "java_field": "ItemTag.COFFEE_MAKER",
+      "description": "Tag for coffeemaker"
+    },
+    "comfrey": {
+      "term": "comfrey",
+      "script_name": "base:comfrey",
+      "java_field": "ItemTag.COMFREY",
+      "description": "Tag for comfrey"
+    },
+    "commonmallow": {
+      "term": "commonmallow",
+      "script_name": "base:commonmallow",
+      "java_field": "ItemTag.COMMON_MALLOW",
+      "description": "Tag for commonmallow"
+    },
+    "compass": {
+      "term": "compass",
+      "script_name": "base:compass",
+      "java_field": "ItemTag.COMPASS",
+      "description": "Tag for compass"
+    },
+    "compost": {
+      "term": "compost",
+      "script_name": "base:compost",
+      "java_field": "ItemTag.COMPOST",
+      "description": "Tag for compost"
+    },
+    "concrete": {
+      "term": "concrete",
+      "script_name": "base:concrete",
+      "java_field": "ItemTag.CONCRETE",
+      "description": "Tag for concrete"
+    },
+    "consumable": {
+      "term": "consumable",
+      "script_name": "base:consumable",
+      "java_field": "ItemTag.CONSUMABLE",
+      "description": "Tag for consumable"
+    },
+    "consumeonread": {
+      "term": "consumeonread",
+      "script_name": "base:consumeonread",
+      "java_field": "ItemTag.CONSUME_ON_READ",
+      "description": "Tag for consumeonread"
+    },
+    "cookable": {
+      "term": "cookable",
+      "script_name": "base:cookable",
+      "java_field": "ItemTag.COOKABLE",
+      "description": "Tag for cookable"
+    },
+    "cookablemicrowave": {
+      "term": "cookablemicrowave",
+      "script_name": "base:cookablemicrowave",
+      "java_field": "ItemTag.COOKABLE_MICROWAVE",
+      "description": "Tag for cookablemicrowave"
+    },
+    "copperore": {
+      "term": "copperore",
+      "script_name": "base:copperore",
+      "java_field": "ItemTag.COPPER_ORE",
+      "description": "Tag for copperore"
+    },
+    "coppersource": {
+      "term": "coppersource",
+      "script_name": "base:coppersource",
+      "java_field": "ItemTag.COPPER_SOURCE",
+      "description": "Tag for coppersource"
+    },
+    "corkscrew": {
+      "term": "corkscrew",
+      "script_name": "base:corkscrew",
+      "java_field": "ItemTag.CORKSCREW",
+      "description": "Tag for corkscrew"
+    },
+    "crowbar": {
+      "term": "crowbar",
+      "script_name": "base:crowbar",
+      "java_field": "ItemTag.CROWBAR",
+      "description": "Tag for crowbar"
+    },
+    "crude": {
+      "term": "crude",
+      "script_name": "base:crude",
+      "java_field": "ItemTag.CRUDE",
+      "description": "Tag for crude"
+    },
+    "crudeblade": {
+      "term": "crudeblade",
+      "script_name": "base:crudeblade",
+      "java_field": "ItemTag.CRUDE_BLADE",
+      "description": "Tag for crudeblade"
+    },
+    "crudechisel": {
+      "term": "crudechisel",
+      "script_name": "base:crudechisel",
+      "java_field": "ItemTag.CRUDE_CHISEL",
+      "description": "Tag for crudechisel"
+    },
+    "crudesaw": {
+      "term": "crudesaw",
+      "script_name": "base:crudesaw",
+      "java_field": "ItemTag.CRUDE_SAW",
+      "description": "Tag for crudesaw"
+    },
+    "crudetongs": {
+      "term": "crudetongs",
+      "script_name": "base:crudetongs",
+      "java_field": "ItemTag.CRUDE_TONGS",
+      "description": "Tag for crudetongs"
+    },
+    "cutheadsack": {
+      "term": "cutheadsack",
+      "script_name": "base:cutheadsack",
+      "java_field": "ItemTag.CUT_HEAD_SACK",
+      "description": "Tag for cutheadsack"
+    },
+    "cutplant": {
+      "term": "cutplant",
+      "script_name": "base:cutplant",
+      "java_field": "ItemTag.CUT_PLANT",
+      "description": "Tag for cutplant"
+    },
+    "d00": {
+      "term": "d00",
+      "script_name": "base:d00",
+      "java_field": "ItemTag.D00",
+      "description": "Tag for d00"
+    },
+    "d10": {
+      "term": "d10",
+      "script_name": "base:d10",
+      "java_field": "ItemTag.D10",
+      "description": "Tag for d10"
+    },
+    "d12": {
+      "term": "d12",
+      "script_name": "base:d12",
+      "java_field": "ItemTag.D12",
+      "description": "Tag for d12"
+    },
+    "d20": {
+      "term": "d20",
+      "script_name": "base:d20",
+      "java_field": "ItemTag.D20",
+      "description": "Tag for d20"
+    },
+    "d4": {
+      "term": "d4",
+      "script_name": "base:d4",
+      "java_field": "ItemTag.D4",
+      "description": "Tag for d4"
+    },
+    "d6": {
+      "term": "d6",
+      "script_name": "base:d6",
+      "java_field": "ItemTag.D6",
+      "description": "Tag for d6"
+    },
+    "d8": {
+      "term": "d8",
+      "script_name": "base:d8",
+      "java_field": "ItemTag.D8",
+      "description": "Tag for d8"
+    },
+    "destructible": {
+      "term": "destructible",
+      "script_name": "base:destructible",
+      "java_field": "ItemTag.DESTRUCTIBLE",
+      "description": "Tag for destructible"
+    },
+    "diamondjewellery": {
+      "term": "diamondjewellery",
+      "script_name": "base:diamondjewellery",
+      "java_field": "ItemTag.DIAMOND_JEWELLERY",
+      "description": "Tag for diamondjewellery"
+    },
+    "diamondscrap": {
+      "term": "diamondscrap",
+      "script_name": "base:diamondscrap",
+      "java_field": "ItemTag.DIAMOND_SCRAP",
+      "description": "Tag for diamondscrap"
+    },
+    "dice": {
+      "term": "dice",
+      "script_name": "base:dice",
+      "java_field": "ItemTag.DICE",
+      "description": "Tag for dice"
+    },
+    "2d6": {
+      "term": "2d6",
+      "script_name": "base:2d6",
+      "java_field": "ItemTag.DICE_2D6",
+      "description": "Tag for 2d6"
+    },
+    "digital": {
+      "term": "digital",
+      "script_name": "base:digital",
+      "java_field": "ItemTag.DIGITAL",
+      "description": "Tag for digital"
+    },
+    "diggrave": {
+      "term": "diggrave",
+      "script_name": "base:diggrave",
+      "java_field": "ItemTag.DIG_GRAVE",
+      "description": "Tag for diggrave"
+    },
+    "digplow": {
+      "term": "digplow",
+      "script_name": "base:digplow",
+      "java_field": "ItemTag.DIG_PLOW",
+      "description": "Tag for digplow"
+    },
+    "digworms": {
+      "term": "digworms",
+      "script_name": "base:digworms",
+      "java_field": "ItemTag.DIG_WORMS",
+      "description": "Tag for digworms"
+    },
+    "dogtag": {
+      "term": "dogtag",
+      "script_name": "base:dogtag",
+      "java_field": "ItemTag.DOG_TAG",
+      "description": "Tag for dogtag"
+    },
+    "dontinheritcondition": {
+      "term": "dontinheritcondition",
+      "script_name": "base:dontinheritcondition",
+      "java_field": "ItemTag.DONT_INHERIT_CONDITION",
+      "description": "Tag for dontinheritcondition"
+    },
+    "dohairdo": {
+      "term": "dohairdo",
+      "script_name": "base:dohairdo",
+      "java_field": "ItemTag.DO_HAIRDO",
+      "description": "Tag for dohairdo"
+    },
+    "driedfood": {
+      "term": "driedfood",
+      "script_name": "base:driedfood",
+      "java_field": "ItemTag.DRIED_FOOD",
+      "description": "Tag for driedfood"
+    },
+    "drillmetal": {
+      "term": "drillmetal",
+      "script_name": "base:drillmetal",
+      "java_field": "ItemTag.DRILL_METAL",
+      "description": "Tag for drillmetal"
+    },
+    "drillwood": {
+      "term": "drillwood",
+      "script_name": "base:drillwood",
+      "java_field": "ItemTag.DRILL_WOOD",
+      "description": "Tag for drillwood"
+    },
+    "drillwoodpoor": {
+      "term": "drillwoodpoor",
+      "script_name": "base:drillwoodpoor",
+      "java_field": "ItemTag.DRILL_WOOD_POOR",
+      "description": "Tag for drillwoodpoor"
+    },
+    "duffelbag": {
+      "term": "duffelbag",
+      "script_name": "base:duffelbag",
+      "java_field": "ItemTag.DUFFEL_BAG",
+      "description": "Tag for duffelbag"
+    },
+    "dullknife": {
+      "term": "dullknife",
+      "script_name": "base:dullknife",
+      "java_field": "ItemTag.DULL_KNIFE",
+      "description": "Tag for dullknife"
+    },
+    "egg": {
+      "term": "egg",
+      "script_name": "base:egg",
+      "java_field": "ItemTag.EGG",
+      "description": "Tag for egg"
+    },
+    "emeraldjewellery": {
+      "term": "emeraldjewellery",
+      "script_name": "base:emeraldjewellery",
+      "java_field": "ItemTag.EMERALD_JEWELLERY",
+      "description": "Tag for emeraldjewellery"
+    },
+    "emptycan": {
+      "term": "emptycan",
+      "script_name": "base:emptycan",
+      "java_field": "ItemTag.EMPTY_CAN",
+      "description": "Tag for emptycan"
+    },
+    "epoxy": {
+      "term": "epoxy",
+      "script_name": "base:epoxy",
+      "java_field": "ItemTag.EPOXY",
+      "description": "Tag for epoxy"
+    },
+    "equippable": {
+      "term": "equippable",
+      "script_name": "base:equippable",
+      "java_field": "ItemTag.EQUIPPABLE",
+      "description": "Tag for equippable"
+    },
+    "eraser": {
+      "term": "eraser",
+      "script_name": "base:eraser",
+      "java_field": "ItemTag.ERASER",
+      "description": "Tag for eraser"
+    },
+    "fakespear": {
+      "term": "fakespear",
+      "script_name": "base:fakespear",
+      "java_field": "ItemTag.FAKE_SPEAR",
+      "description": "Tag for fakespear"
+    },
+    "fakeweapon": {
+      "term": "fakeweapon",
+      "script_name": "base:fakeweapon",
+      "java_field": "ItemTag.FAKE_WEAPON",
+      "description": "Tag for fakeweapon"
+    },
+    "fancybook": {
+      "term": "fancybook",
+      "script_name": "base:fancybook",
+      "java_field": "ItemTag.FANCY_BOOK",
+      "description": "Tag for fancybook"
+    },
+    "farmingloot": {
+      "term": "farmingloot",
+      "script_name": "base:farmingloot",
+      "java_field": "ItemTag.FARMING_LOOT",
+      "description": "Tag for farmingloot"
+    },
+    "fastdraw": {
+      "term": "fastdraw",
+      "script_name": "base:fastdraw",
+      "java_field": "ItemTag.FAST_DRAW",
+      "description": "Tag for fastdraw"
+    },
+    "fastread": {
+      "term": "fastread",
+      "script_name": "base:fastread",
+      "java_field": "ItemTag.FAST_READ",
+      "description": "Tag for fastread"
+    },
+    "feather": {
+      "term": "feather",
+      "script_name": "base:feather",
+      "java_field": "ItemTag.FEATHER",
+      "description": "Tag for feather"
+    },
+    "fertilizer": {
+      "term": "fertilizer",
+      "script_name": "base:fertilizer",
+      "java_field": "ItemTag.FERTILIZER",
+      "description": "Tag for fertilizer"
+    },
+    "fiberglasstape": {
+      "term": "fiberglasstape",
+      "script_name": "base:fiberglasstape",
+      "java_field": "ItemTag.FIBERGLASS_TAPE",
+      "description": "Tag for fiberglasstape"
+    },
+    "file": {
+      "term": "file",
+      "script_name": "base:file",
+      "java_field": "ItemTag.FILE",
+      "description": "Tag for file"
+    },
+    "firearm": {
+      "term": "firearm",
+      "script_name": "base:firearm",
+      "java_field": "ItemTag.FIREARM",
+      "description": "Tag for firearm"
+    },
+    "firearmloot": {
+      "term": "firearmloot",
+      "script_name": "base:firearmloot",
+      "java_field": "ItemTag.FIREARM_LOOT",
+      "description": "Tag for firearmloot"
+    },
+    "fishinghook": {
+      "term": "fishinghook",
+      "script_name": "base:fishinghook",
+      "java_field": "ItemTag.FISHING_HOOK",
+      "description": "Tag for fishinghook"
+    },
+    "fishingline": {
+      "term": "fishingline",
+      "script_name": "base:fishingline",
+      "java_field": "ItemTag.FISHING_LINE",
+      "description": "Tag for fishingline"
+    },
+    "fishingnet": {
+      "term": "fishingnet",
+      "script_name": "base:fishingnet",
+      "java_field": "ItemTag.FISHING_NET",
+      "description": "Tag for fishingnet"
+    },
+    "fishingrod": {
+      "term": "fishingrod",
+      "script_name": "base:fishingrod",
+      "java_field": "ItemTag.FISHING_ROD",
+      "description": "Tag for fishingrod"
+    },
+    "fishingspear": {
+      "term": "fishingspear",
+      "script_name": "base:fishingspear",
+      "java_field": "ItemTag.FISHING_SPEAR",
+      "description": "Tag for fishingspear"
+    },
+    "fishmeat": {
+      "term": "fishmeat",
+      "script_name": "base:fishmeat",
+      "java_field": "ItemTag.FISH_MEAT",
+      "description": "Tag for fishmeat"
+    },
+    "fitsclothingrack": {
+      "term": "fitsclothingrack",
+      "script_name": "base:fitsclothingrack",
+      "java_field": "ItemTag.FITS_CLOTHING_RACK",
+      "description": "Tag for fitsclothingrack"
+    },
+    "fitskeyring": {
+      "term": "fitskeyring",
+      "script_name": "base:fitskeyring",
+      "java_field": "ItemTag.FITS_KEY_RING",
+      "description": "Tag for fitskeyring"
+    },
+    "fitstoaster": {
+      "term": "fitstoaster",
+      "script_name": "base:fitstoaster",
+      "java_field": "ItemTag.FITS_TOASTER",
+      "description": "Tag for fitstoaster"
+    },
+    "fitswallet": {
+      "term": "fitswallet",
+      "script_name": "base:fitswallet",
+      "java_field": "ItemTag.FITS_WALLET",
+      "description": "Tag for fitswallet"
+    },
+    "flashlight": {
+      "term": "flashlight",
+      "script_name": "base:flashlight",
+      "java_field": "ItemTag.FLASHLIGHT",
+      "description": "Tag for flashlight"
+    },
+    "flashlightpillar": {
+      "term": "flashlightpillar",
+      "script_name": "base:flashlightpillar",
+      "java_field": "ItemTag.FLASHLIGHT_PILLAR",
+      "description": "Tag for flashlightpillar"
+    },
+    "fleshingtool": {
+      "term": "fleshingtool",
+      "script_name": "base:fleshingtool",
+      "java_field": "ItemTag.FLESHING_TOOL",
+      "description": "Tag for fleshingtool"
+    },
+    "flintpiece": {
+      "term": "flintpiece",
+      "script_name": "base:flintpiece",
+      "java_field": "ItemTag.FLINT_PIECE",
+      "description": "Tag for flintpiece"
+    },
+    "flour": {
+      "term": "flour",
+      "script_name": "base:flour",
+      "java_field": "ItemTag.FLOUR",
+      "description": "Tag for flour"
+    },
+    "forge_crude_blade": {
+      "term": "forge_crude_blade",
+      "script_name": "base:forge_crude_blade",
+      "java_field": "ItemTag.FORGE_CRUDE_BLADE",
+      "description": "Tag for forge_crude_blade"
+    },
+    "fork": {
+      "term": "fork",
+      "script_name": "base:fork",
+      "java_field": "ItemTag.FORK",
+      "description": "Tag for fork"
+    },
+    "fullblade": {
+      "term": "fullblade",
+      "script_name": "base:fullblade",
+      "java_field": "ItemTag.FULL_BLADE",
+      "description": "Tag for fullblade"
+    },
+    "garbagebag": {
+      "term": "garbagebag",
+      "script_name": "base:garbagebag",
+      "java_field": "ItemTag.GARBAGE_BAG",
+      "description": "Tag for garbagebag"
+    },
+    "gasmaskfilter": {
+      "term": "gasmaskfilter",
+      "script_name": "base:gasmaskfilter",
+      "java_field": "ItemTag.GASMASK_FILTER",
+      "description": "Tag for gasmaskfilter"
+    },
+    "gasmask": {
+      "term": "gasmask",
+      "script_name": "base:gasmask",
+      "java_field": "ItemTag.GAS_MASK",
+      "description": "Tag for gasmask"
+    },
+    "gasmasknofilter": {
+      "term": "gasmasknofilter",
+      "script_name": "base:gasmasknofilter",
+      "java_field": "ItemTag.GAS_MASK_NO_FILTER",
+      "description": "Tag for gasmasknofilter"
+    },
+    "generator": {
+      "term": "generator",
+      "script_name": "base:generator",
+      "java_field": "ItemTag.GENERATOR",
+      "description": "Tag for generator"
+    },
+    "giveslongstick": {
+      "term": "giveslongstick",
+      "script_name": "base:giveslongstick",
+      "java_field": "ItemTag.GIVES_LONG_STICK",
+      "description": "Tag for giveslongstick"
+    },
+    "glass": {
+      "term": "glass",
+      "script_name": "base:glass",
+      "java_field": "ItemTag.GLASS",
+      "description": "Tag for glass"
+    },
+    "glassbottle": {
+      "term": "glassbottle",
+      "script_name": "base:glassbottle",
+      "java_field": "ItemTag.GLASS_BOTTLE",
+      "description": "Tag for glassbottle"
+    },
+    "glassbottlesmall": {
+      "term": "glassbottlesmall",
+      "script_name": "base:glassbottlesmall",
+      "java_field": "ItemTag.GLASS_BOTTLE_SMALL",
+      "description": "Tag for glassbottlesmall"
+    },
+    "glue": {
+      "term": "glue",
+      "script_name": "base:glue",
+      "java_field": "ItemTag.GLUE",
+      "description": "Tag for glue"
+    },
+    "goldscrap": {
+      "term": "goldscrap",
+      "script_name": "base:goldscrap",
+      "java_field": "ItemTag.GOLD_SCRAP",
+      "description": "Tag for goldscrap"
+    },
+    "goodfrozen": {
+      "term": "goodfrozen",
+      "script_name": "base:goodfrozen",
+      "java_field": "ItemTag.GOOD_FROZEN",
+      "description": "Tag for goodfrozen"
+    },
+    "grater": {
+      "term": "grater",
+      "script_name": "base:grater",
+      "java_field": "ItemTag.GRATER",
+      "description": "Tag for grater"
+    },
+    "greenpen": {
+      "term": "greenpen",
+      "script_name": "base:greenpen",
+      "java_field": "ItemTag.GREEN_PEN",
+      "description": "Tag for greenpen"
+    },
+    "grilled": {
+      "term": "grilled",
+      "script_name": "base:grilled",
+      "java_field": "ItemTag.GRILLED",
+      "description": "Tag for grilled"
+    },
+    "hammer": {
+      "term": "hammer",
+      "script_name": "base:hammer",
+      "java_field": "ItemTag.HAMMER",
+      "description": "Tag for hammer"
+    },
+    "hammerstone": {
+      "term": "hammerstone",
+      "script_name": "base:hammerstone",
+      "java_field": "ItemTag.HAMMER_STONE",
+      "description": "Tag for hammerstone"
+    },
+    "handguard": {
+      "term": "handguard",
+      "script_name": "base:handguard",
+      "java_field": "ItemTag.HANDGUARD",
+      "description": "Tag for handguard"
+    },
+    "handscythe": {
+      "term": "handscythe",
+      "script_name": "base:handscythe",
+      "java_field": "ItemTag.HAND_SCYTHE",
+      "description": "Tag for handscythe"
+    },
+    "hardcover": {
+      "term": "hardcover",
+      "script_name": "base:hardcover",
+      "java_field": "ItemTag.HARDCOVER",
+      "description": "Tag for hardcover"
+    },
+    "harmonica": {
+      "term": "harmonica",
+      "script_name": "base:harmonica",
+      "java_field": "ItemTag.HARMONICA",
+      "description": "Tag for harmonica"
+    },
+    "hasmetal": {
+      "term": "hasmetal",
+      "script_name": "base:hasmetal",
+      "java_field": "ItemTag.HAS_METAL",
+      "description": "Tag for hasmetal"
+    },
+    "hastoolhead": {
+      "term": "hastoolhead",
+      "script_name": "base:hastoolhead",
+      "java_field": "ItemTag.HAS_TOOL_HEAD",
+      "description": "Tag for hastoolhead"
+    },
+    "hazmatsuit": {
+      "term": "hazmatsuit",
+      "script_name": "base:hazmatsuit",
+      "java_field": "ItemTag.HAZMAT_SUIT",
+      "description": "Tag for hazmatsuit"
+    },
+    "headingtool": {
+      "term": "headingtool",
+      "script_name": "base:headingtool",
+      "java_field": "ItemTag.HEADING_TOOL",
+      "description": "Tag for headingtool"
+    },
+    "heavyitem": {
+      "term": "heavyitem",
+      "script_name": "base:heavyitem",
+      "java_field": "ItemTag.HEAVY_ITEM",
+      "description": "Tag for heavyitem"
+    },
+    "heavythread": {
+      "term": "heavythread",
+      "script_name": "base:heavythread",
+      "java_field": "ItemTag.HEAVY_THREAD",
+      "description": "Tag for heavythread"
+    },
+    "herbaltea": {
+      "term": "herbaltea",
+      "script_name": "base:herbaltea",
+      "java_field": "ItemTag.HERBAL_TEA",
+      "description": "Tag for herbaltea"
+    },
+    "hidecooked": {
+      "term": "hidecooked",
+      "script_name": "base:hidecooked",
+      "java_field": "ItemTag.HIDE_COOKED",
+      "description": "Tag for hidecooked"
+    },
+    "hidehungerchange": {
+      "term": "hidehungerchange",
+      "script_name": "base:hidehungerchange",
+      "java_field": "ItemTag.HIDE_HUNGER_CHANGE",
+      "description": "Tag for hidehungerchange"
+    },
+    "hideremaining": {
+      "term": "hideremaining",
+      "script_name": "base:hideremaining",
+      "java_field": "ItemTag.HIDE_REMAINING",
+      "description": "Tag for hideremaining"
+    },
+    "hideuncooked": {
+      "term": "hideuncooked",
+      "script_name": "base:hideuncooked",
+      "java_field": "ItemTag.HIDE_UNCOOKED",
+      "description": "Tag for hideuncooked"
+    },
+    "holdcompost": {
+      "term": "holdcompost",
+      "script_name": "base:holdcompost",
+      "java_field": "ItemTag.HOLD_COMPOST",
+      "description": "Tag for holdcompost"
+    },
+    "holddirt": {
+      "term": "holddirt",
+      "script_name": "base:holddirt",
+      "java_field": "ItemTag.HOLD_DIRT",
+      "description": "Tag for holddirt"
+    },
+    "hollowbook": {
+      "term": "hollowbook",
+      "script_name": "base:hollowbook",
+      "java_field": "ItemTag.HOLLOW_BOOK",
+      "description": "Tag for hollowbook"
+    },
+    "idcard": {
+      "term": "idcard",
+      "script_name": "base:idcard",
+      "java_field": "ItemTag.IDCARD",
+      "description": "Tag for idcard"
+    },
+    "ignorezombiedensity": {
+      "term": "ignorezombiedensity",
+      "script_name": "base:ignorezombiedensity",
+      "java_field": "ItemTag.IGNORE_ZOMBIE_DENSITY",
+      "description": "Tag for ignorezombiedensity"
+    },
+    "improvisedgasmask": {
+      "term": "improvisedgasmask",
+      "script_name": "base:improvisedgasmask",
+      "java_field": "ItemTag.IMPROVISED_GAS_MASK",
+      "description": "Tag for improvisedgasmask"
+    },
+    "inferiorbinding": {
+      "term": "inferiorbinding",
+      "script_name": "base:inferiorbinding",
+      "java_field": "ItemTag.INFERIOR_BINDING",
+      "description": "Tag for inferiorbinding"
+    },
+    "ingot": {
+      "term": "ingot",
+      "script_name": "base:ingot",
+      "java_field": "ItemTag.INGOT",
+      "description": "Tag for ingot"
+    },
+    "ironmaterial": {
+      "term": "ironmaterial",
+      "script_name": "base:ironmaterial",
+      "java_field": "ItemTag.IRON_MATERIAL",
+      "description": "Tag for ironmaterial"
+    },
+    "ironore": {
+      "term": "ironore",
+      "script_name": "base:ironore",
+      "java_field": "ItemTag.IRON_ORE",
+      "description": "Tag for ironore"
+    },
+    "ironsource": {
+      "term": "ironsource",
+      "script_name": "base:ironsource",
+      "java_field": "ItemTag.IRON_SOURCE",
+      "description": "Tag for ironsource"
+    },
+    "isatomic": {
+      "term": "isatomic",
+      "script_name": "base:isatomic",
+      "java_field": "ItemTag.IS_ATOMIC",
+      "description": "Tag for isatomic"
+    },
+    "iscompostable": {
+      "term": "iscompostable",
+      "script_name": "base:iscompostable",
+      "java_field": "ItemTag.IS_COMPOSTABLE",
+      "description": "Tag for iscompostable"
+    },
+    "iscutting": {
+      "term": "iscutting",
+      "script_name": "base:iscutting",
+      "java_field": "ItemTag.IS_CUTTING",
+      "description": "Tag for iscutting"
+    },
+    "isdisguise": {
+      "term": "isdisguise",
+      "script_name": "base:isdisguise",
+      "java_field": "ItemTag.IS_DISGUISE",
+      "description": "Tag for isdisguise"
+    },
+    "isfirefuel": {
+      "term": "isfirefuel",
+      "script_name": "base:isfirefuel",
+      "java_field": "ItemTag.IS_FIRE_FUEL",
+      "description": "Tag for isfirefuel"
+    },
+    "isfirefuelsingleuse": {
+      "term": "isfirefuelsingleuse",
+      "script_name": "base:isfirefuelsingleuse",
+      "java_field": "ItemTag.IS_FIRE_FUEL_SINGLE_USE",
+      "description": "Tag for isfirefuelsingleuse"
+    },
+    "isfiretinder": {
+      "term": "isfiretinder",
+      "script_name": "base:isfiretinder",
+      "java_field": "ItemTag.IS_FIRE_TINDER",
+      "description": "Tag for isfiretinder"
+    },
+    "islowerdisguise": {
+      "term": "islowerdisguise",
+      "script_name": "base:islowerdisguise",
+      "java_field": "ItemTag.IS_LOWER_DISGUISE",
+      "description": "Tag for islowerdisguise"
+    },
+    "ismemento": {
+      "term": "ismemento",
+      "script_name": "base:ismemento",
+      "java_field": "ItemTag.IS_MEMENTO",
+      "description": "Tag for ismemento"
+    },
+    "isseed": {
+      "term": "isseed",
+      "script_name": "base:isseed",
+      "java_field": "ItemTag.IS_SEED",
+      "description": "Tag for isseed"
+    },
+    "isupperdisguise": {
+      "term": "isupperdisguise",
+      "script_name": "base:isupperdisguise",
+      "java_field": "ItemTag.IS_UPPER_DISGUISE",
+      "description": "Tag for isupperdisguise"
+    },
+    "jar": {
+      "term": "jar",
+      "script_name": "base:jar",
+      "java_field": "ItemTag.JAR",
+      "description": "Tag for jar"
+    },
+    "keyring": {
+      "term": "keyring",
+      "script_name": "base:keyring",
+      "java_field": "ItemTag.KEY_RING",
+      "description": "Tag for keyring"
+    },
+    "killanimal": {
+      "term": "killanimal",
+      "script_name": "base:killanimal",
+      "java_field": "ItemTag.KILL_ANIMAL",
+      "description": "Tag for killanimal"
+    },
+    "knappingtool": {
+      "term": "knappingtool",
+      "script_name": "base:knappingtool",
+      "java_field": "ItemTag.KNAPPING_TOOL",
+      "description": "Tag for knappingtool"
+    },
+    "knittingneedles": {
+      "term": "knittingneedles",
+      "script_name": "base:knittingneedles",
+      "java_field": "ItemTag.KNITTING_NEEDLES",
+      "description": "Tag for knittingneedles"
+    },
+    "largeanimalbone": {
+      "term": "largeanimalbone",
+      "script_name": "base:largeanimalbone",
+      "java_field": "ItemTag.LARGE_ANIMAL_BONE",
+      "description": "Tag for largeanimalbone"
+    },
+    "largeblade": {
+      "term": "largeblade",
+      "script_name": "base:largeblade",
+      "java_field": "ItemTag.LARGE_BLADE",
+      "description": "Tag for largeblade"
+    },
+    "largesack": {
+      "term": "largesack",
+      "script_name": "base:largesack",
+      "java_field": "ItemTag.LARGE_SACK",
+      "description": "Tag for largesack"
+    },
+    "leathercrudelarge": {
+      "term": "leathercrudelarge",
+      "script_name": "base:leathercrudelarge",
+      "java_field": "ItemTag.LEATHER_CRUDE_LARGE",
+      "description": "Tag for leathercrudelarge"
+    },
+    "leathercrudemedium": {
+      "term": "leathercrudemedium",
+      "script_name": "base:leathercrudemedium",
+      "java_field": "ItemTag.LEATHER_CRUDE_MEDIUM",
+      "description": "Tag for leathercrudemedium"
+    },
+    "leathercrudesmall": {
+      "term": "leathercrudesmall",
+      "script_name": "base:leathercrudesmall",
+      "java_field": "ItemTag.LEATHER_CRUDE_SMALL",
+      "description": "Tag for leathercrudesmall"
+    },
+    "leathercrudetannedlarge": {
+      "term": "leathercrudetannedlarge",
+      "script_name": "base:leathercrudetannedlarge",
+      "java_field": "ItemTag.LEATHER_CRUDE_TANNED_LARGE",
+      "description": "Tag for leathercrudetannedlarge"
+    },
+    "leathercrudetannedmedium": {
+      "term": "leathercrudetannedmedium",
+      "script_name": "base:leathercrudetannedmedium",
+      "java_field": "ItemTag.LEATHER_CRUDE_TANNED_MEDIUM",
+      "description": "Tag for leathercrudetannedmedium"
+    },
+    "leathercrudetannedsmall": {
+      "term": "leathercrudetannedsmall",
+      "script_name": "base:leathercrudetannedsmall",
+      "java_field": "ItemTag.LEATHER_CRUDE_TANNED_SMALL",
+      "description": "Tag for leathercrudetannedsmall"
+    },
+    "leathercrudewetlarge": {
+      "term": "leathercrudewetlarge",
+      "script_name": "base:leathercrudewetlarge",
+      "java_field": "ItemTag.LEATHER_CRUDE_WET_LARGE",
+      "description": "Tag for leathercrudewetlarge"
+    },
+    "leathercrudewetmedium": {
+      "term": "leathercrudewetmedium",
+      "script_name": "base:leathercrudewetmedium",
+      "java_field": "ItemTag.LEATHER_CRUDE_WET_MEDIUM",
+      "description": "Tag for leathercrudewetmedium"
+    },
+    "leathercrudewetsmall": {
+      "term": "leathercrudewetsmall",
+      "script_name": "base:leathercrudewetsmall",
+      "java_field": "ItemTag.LEATHER_CRUDE_WET_SMALL",
+      "description": "Tag for leathercrudewetsmall"
+    },
+    "leatherfulllarge": {
+      "term": "leatherfulllarge",
+      "script_name": "base:leatherfulllarge",
+      "java_field": "ItemTag.LEATHER_FULL_LARGE",
+      "description": "Tag for leatherfulllarge"
+    },
+    "leatherfullmedium": {
+      "term": "leatherfullmedium",
+      "script_name": "base:leatherfullmedium",
+      "java_field": "ItemTag.LEATHER_FULL_MEDIUM",
+      "description": "Tag for leatherfullmedium"
+    },
+    "leatherfullsmall": {
+      "term": "leatherfullsmall",
+      "script_name": "base:leatherfullsmall",
+      "java_field": "ItemTag.LEATHER_FULL_SMALL",
+      "description": "Tag for leatherfullsmall"
+    },
+    "leatherfurlarge": {
+      "term": "leatherfurlarge",
+      "script_name": "base:leatherfurlarge",
+      "java_field": "ItemTag.LEATHER_FUR_LARGE",
+      "description": "Tag for leatherfurlarge"
+    },
+    "leatherfurmedium": {
+      "term": "leatherfurmedium",
+      "script_name": "base:leatherfurmedium",
+      "java_field": "ItemTag.LEATHER_FUR_MEDIUM",
+      "description": "Tag for leatherfurmedium"
+    },
+    "leatherfursmall": {
+      "term": "leatherfursmall",
+      "script_name": "base:leatherfursmall",
+      "java_field": "ItemTag.LEATHER_FUR_SMALL",
+      "description": "Tag for leatherfursmall"
+    },
+    "leatherfurtannedlarge": {
+      "term": "leatherfurtannedlarge",
+      "script_name": "base:leatherfurtannedlarge",
+      "java_field": "ItemTag.LEATHER_FUR_TANNED_LARGE",
+      "description": "Tag for leatherfurtannedlarge"
+    },
+    "leatherfurtannedmedium": {
+      "term": "leatherfurtannedmedium",
+      "script_name": "base:leatherfurtannedmedium",
+      "java_field": "ItemTag.LEATHER_FUR_TANNED_MEDIUM",
+      "description": "Tag for leatherfurtannedmedium"
+    },
+    "leatherfurtannedsmall": {
+      "term": "leatherfurtannedsmall",
+      "script_name": "base:leatherfurtannedsmall",
+      "java_field": "ItemTag.LEATHER_FUR_TANNED_SMALL",
+      "description": "Tag for leatherfurtannedsmall"
+    },
+    "leatherfurwetlarge": {
+      "term": "leatherfurwetlarge",
+      "script_name": "base:leatherfurwetlarge",
+      "java_field": "ItemTag.LEATHER_FUR_WET_LARGE",
+      "description": "Tag for leatherfurwetlarge"
+    },
+    "leatherfurwetmedium": {
+      "term": "leatherfurwetmedium",
+      "script_name": "base:leatherfurwetmedium",
+      "java_field": "ItemTag.LEATHER_FUR_WET_MEDIUM",
+      "description": "Tag for leatherfurwetmedium"
+    },
+    "leatherfurwetsmall": {
+      "term": "leatherfurwetsmall",
+      "script_name": "base:leatherfurwetsmall",
+      "java_field": "ItemTag.LEATHER_FUR_WET_SMALL",
+      "description": "Tag for leatherfurwetsmall"
+    },
+    "lessfull": {
+      "term": "lessfull",
+      "script_name": "base:lessfull",
+      "java_field": "ItemTag.LESS_FULL",
+      "description": "Tag for lessfull"
+    },
+    "lightbar": {
+      "term": "lightbar",
+      "script_name": "base:lightbar",
+      "java_field": "ItemTag.LIGHTBAR",
+      "description": "Tag for lightbar"
+    },
+    "lighter": {
+      "term": "lighter",
+      "script_name": "base:lighter",
+      "java_field": "ItemTag.LIGHTER",
+      "description": "Tag for lighter"
+    },
+    "lighterfluid": {
+      "term": "lighterfluid",
+      "script_name": "base:lighterfluid",
+      "java_field": "ItemTag.LIGHTER_FLUID",
+      "description": "Tag for lighterfluid"
+    },
+    "lightmetalsnips": {
+      "term": "lightmetalsnips",
+      "script_name": "base:lightmetalsnips",
+      "java_field": "ItemTag.LIGHT_METAL_SNIPS",
+      "description": "Tag for lightmetalsnips"
+    },
+    "lightwhenattached": {
+      "term": "lightwhenattached",
+      "script_name": "base:lightwhenattached",
+      "java_field": "ItemTag.LIGHT_WHEN_ATTACHED",
+      "description": "Tag for lightwhenattached"
+    },
+    "limestone": {
+      "term": "limestone",
+      "script_name": "base:limestone",
+      "java_field": "ItemTag.LIMESTONE",
+      "description": "Tag for limestone"
+    },
+    "litlantern": {
+      "term": "litlantern",
+      "script_name": "base:litlantern",
+      "java_field": "ItemTag.LIT_LANTERN",
+      "description": "Tag for litlantern"
+    },
+    "lock": {
+      "term": "lock",
+      "script_name": "base:lock",
+      "java_field": "ItemTag.LOCK",
+      "description": "Tag for lock"
+    },
+    "lockonwrite": {
+      "term": "lockonwrite",
+      "script_name": "base:lockonwrite",
+      "java_field": "ItemTag.LOCK_ON_WRITE",
+      "description": "Tag for lockonwrite"
+    },
+    "log": {
+      "term": "log",
+      "script_name": "base:log",
+      "java_field": "ItemTag.LOG",
+      "description": "Tag for log"
+    },
+    "long_johns": {
+      "term": "long_johns",
+      "script_name": "base:long_johns",
+      "java_field": "ItemTag.LONG_JOHNS",
+      "description": "Tag for long_johns"
+    },
+    "longstick": {
+      "term": "longstick",
+      "script_name": "base:longstick",
+      "java_field": "ItemTag.LONG_STICK",
+      "description": "Tag for longstick"
+    },
+    "lowalcohol": {
+      "term": "lowalcohol",
+      "script_name": "base:lowalcohol",
+      "java_field": "ItemTag.LOW_ALCOHOL",
+      "description": "Tag for lowalcohol"
+    },
+    "lugwrench": {
+      "term": "lugwrench",
+      "script_name": "base:lugwrench",
+      "java_field": "ItemTag.LUG_WRENCH",
+      "description": "Tag for lugwrench"
+    },
+    "magazine": {
+      "term": "magazine",
+      "script_name": "base:magazine",
+      "java_field": "ItemTag.MAGAZINE",
+      "description": "Tag for magazine"
+    },
+    "magnifier": {
+      "term": "magnifier",
+      "script_name": "base:magnifier",
+      "java_field": "ItemTag.MAGNIFIER",
+      "description": "Tag for magnifier"
+    },
+    "makewoodcharcoallarge": {
+      "term": "makewoodcharcoallarge",
+      "script_name": "base:makewoodcharcoallarge",
+      "java_field": "ItemTag.MAKE_WOOD_CHARCOAL_LARGE",
+      "description": "Tag for makewoodcharcoallarge"
+    },
+    "makewoodcharcoalmedium": {
+      "term": "makewoodcharcoalmedium",
+      "script_name": "base:makewoodcharcoalmedium",
+      "java_field": "ItemTag.MAKE_WOOD_CHARCOAL_MEDIUM",
+      "description": "Tag for makewoodcharcoalmedium"
+    },
+    "makewoodcharcoalsmall": {
+      "term": "makewoodcharcoalsmall",
+      "script_name": "base:makewoodcharcoalsmall",
+      "java_field": "ItemTag.MAKE_WOOD_CHARCOAL_SMALL",
+      "description": "Tag for makewoodcharcoalsmall"
+    },
+    "mallet": {
+      "term": "mallet",
+      "script_name": "base:mallet",
+      "java_field": "ItemTag.MALLET",
+      "description": "Tag for mallet"
+    },
+    "masonschisel": {
+      "term": "masonschisel",
+      "script_name": "base:masonschisel",
+      "java_field": "ItemTag.MASONS_CHISEL",
+      "description": "Tag for masonschisel"
+    },
+    "masonstrowel": {
+      "term": "masonstrowel",
+      "script_name": "base:masonstrowel",
+      "java_field": "ItemTag.MASONS_TROWEL",
+      "description": "Tag for masonstrowel"
+    },
+    "meatcleaver": {
+      "term": "meatcleaver",
+      "script_name": "base:meatcleaver",
+      "java_field": "ItemTag.MEAT_CLEAVER",
+      "description": "Tag for meatcleaver"
+    },
+    "megaphone": {
+      "term": "megaphone",
+      "script_name": "base:megaphone",
+      "java_field": "ItemTag.MEGAPHONE",
+      "description": "Tag for megaphone"
+    },
+    "metalworkingchisel": {
+      "term": "metalworkingchisel",
+      "script_name": "base:metalworkingchisel",
+      "java_field": "ItemTag.METALWORKING_CHISEL",
+      "description": "Tag for metalworkingchisel"
+    },
+    "metalworkingpliers": {
+      "term": "metalworkingpliers",
+      "script_name": "base:metalworkingpliers",
+      "java_field": "ItemTag.METALWORKING_PLIERS",
+      "description": "Tag for metalworkingpliers"
+    },
+    "metalworkingpunch": {
+      "term": "metalworkingpunch",
+      "script_name": "base:metalworkingpunch",
+      "java_field": "ItemTag.METALWORKING_PUNCH",
+      "description": "Tag for metalworkingpunch"
+    },
+    "metalbucket": {
+      "term": "metalbucket",
+      "script_name": "base:metalbucket",
+      "java_field": "ItemTag.METAL_BUCKET",
+      "description": "Tag for metalbucket"
+    },
+    "metalpiece": {
+      "term": "metalpiece",
+      "script_name": "base:metalpiece",
+      "java_field": "ItemTag.METAL_PIECE",
+      "description": "Tag for metalpiece"
+    },
+    "metalsaw": {
+      "term": "metalsaw",
+      "script_name": "base:metalsaw",
+      "java_field": "ItemTag.METAL_SAW",
+      "description": "Tag for metalsaw"
+    },
+    "milk": {
+      "term": "milk",
+      "script_name": "base:milk",
+      "java_field": "ItemTag.MILK",
+      "description": "Tag for milk"
+    },
+    "minoringredient": {
+      "term": "minoringredient",
+      "script_name": "base:minoringredient",
+      "java_field": "ItemTag.MINOR_INGREDIENT",
+      "description": "Tag for minoringredient"
+    },
+    "miscelectronic": {
+      "term": "miscelectronic",
+      "script_name": "base:miscelectronic",
+      "java_field": "ItemTag.MISC_ELECTRONIC",
+      "description": "Tag for miscelectronic"
+    },
+    "mixingutensil": {
+      "term": "mixingutensil",
+      "script_name": "base:mixingutensil",
+      "java_field": "ItemTag.MIXING_UTENSIL",
+      "description": "Tag for mixingutensil"
+    },
+    "monogramownername": {
+      "term": "monogramownername",
+      "script_name": "base:monogramownername",
+      "java_field": "ItemTag.MONOGRAM_OWNER_NAME",
+      "description": "Tag for monogramownername"
+    },
+    "morewhennozombies": {
+      "term": "morewhennozombies",
+      "script_name": "base:morewhennozombies",
+      "java_field": "ItemTag.MORE_WHEN_NO_ZOMBIES",
+      "description": "Tag for morewhennozombies"
+    },
+    "mortarpestle": {
+      "term": "mortarpestle",
+      "script_name": "base:mortarpestle",
+      "java_field": "ItemTag.MORTAR_PESTLE",
+      "description": "Tag for mortarpestle"
+    },
+    "mufflesneeze": {
+      "term": "mufflesneeze",
+      "script_name": "base:mufflesneeze",
+      "java_field": "ItemTag.MUFFLE_SNEEZE",
+      "description": "Tag for mufflesneeze"
+    },
+    "neverempty": {
+      "term": "neverempty",
+      "script_name": "base:neverempty",
+      "java_field": "ItemTag.NEVER_EMPTY",
+      "description": "Tag for neverempty"
+    },
+    "new": {
+      "term": "new",
+      "script_name": "base:new",
+      "java_field": "ItemTag.NEW",
+      "description": "Tag for new"
+    },
+    "newspaper": {
+      "term": "newspaper",
+      "script_name": "base:newspaper",
+      "java_field": "ItemTag.NEWSPAPER",
+      "description": "Tag for newspaper"
+    },
+    "newspaper_new": {
+      "term": "newspaper_new",
+      "script_name": "base:newspaper_new",
+      "java_field": "ItemTag.NEWSPAPER_NEW",
+      "description": "Tag for newspaper_new"
+    },
+    "newspaperread": {
+      "term": "newspaperread",
+      "script_name": "base:newspaperread",
+      "java_field": "ItemTag.NEWSPAPER_READ",
+      "description": "Tag for newspaperread"
+    },
+    "normalpillow": {
+      "term": "normalpillow",
+      "script_name": "base:normalpillow",
+      "java_field": "ItemTag.NORMAL_PILLOW",
+      "description": "Tag for normalpillow"
+    },
+    "nocookingxp": {
+      "term": "nocookingxp",
+      "script_name": "base:nocookingxp",
+      "java_field": "ItemTag.NO_COOKING_XP",
+      "description": "Tag for nocookingxp"
+    },
+    "nocriticals": {
+      "term": "nocriticals",
+      "script_name": "base:nocriticals",
+      "java_field": "ItemTag.NO_CRITICALS",
+      "description": "Tag for nocriticals"
+    },
+    "nodetect": {
+      "term": "nodetect",
+      "script_name": "base:nodetect",
+      "java_field": "ItemTag.NO_DETECT",
+      "description": "Tag for nodetect"
+    },
+    "nofencestab": {
+      "term": "nofencestab",
+      "script_name": "base:nofencestab",
+      "java_field": "ItemTag.NO_FENCE_STAB",
+      "description": "Tag for nofencestab"
+    },
+    "nomaintenancexp": {
+      "term": "nomaintenancexp",
+      "script_name": "base:nomaintenancexp",
+      "java_field": "ItemTag.NO_MAINTENANCE_XP",
+      "description": "Tag for nomaintenancexp"
+    },
+    "nopour": {
+      "term": "nopour",
+      "script_name": "base:nopour",
+      "java_field": "ItemTag.NO_POUR",
+      "description": "Tag for nopour"
+    },
+    "noragdoll": {
+      "term": "noragdoll",
+      "script_name": "base:noragdoll",
+      "java_field": "ItemTag.NO_RAGDOLL",
+      "description": "Tag for noragdoll"
+    },
+    "norope": {
+      "term": "norope",
+      "script_name": "base:norope",
+      "java_field": "ItemTag.NO_ROPE",
+      "description": "Tag for norope"
+    },
+    "oil": {
+      "term": "oil",
+      "script_name": "base:oil",
+      "java_field": "ItemTag.OIL",
+      "description": "Tag for oil"
+    },
+    "omitemptyfromname": {
+      "term": "omitemptyfromname",
+      "script_name": "base:omitemptyfromname",
+      "java_field": "ItemTag.OMIT_EMPTY_FROM_NAME",
+      "description": "Tag for omitemptyfromname"
+    },
+    "optics": {
+      "term": "optics",
+      "script_name": "base:optics",
+      "java_field": "ItemTag.OPTICS",
+      "description": "Tag for optics"
+    },
+    "oxygentank": {
+      "term": "oxygentank",
+      "script_name": "base:oxygentank",
+      "java_field": "ItemTag.OXYGEN_TANK",
+      "description": "Tag for oxygentank"
+    },
+    "packed": {
+      "term": "packed",
+      "script_name": "base:packed",
+      "java_field": "ItemTag.PACKED",
+      "description": "Tag for packed"
+    },
+    "paint": {
+      "term": "paint",
+      "script_name": "base:paint",
+      "java_field": "ItemTag.PAINT",
+      "description": "Tag for paint"
+    },
+    "paintbrush": {
+      "term": "paintbrush",
+      "script_name": "base:paintbrush",
+      "java_field": "ItemTag.PAINTBRUSH",
+      "description": "Tag for paintbrush"
+    },
+    "pasta": {
+      "term": "pasta",
+      "script_name": "base:pasta",
+      "java_field": "ItemTag.PASTA",
+      "description": "Tag for pasta"
+    },
+    "pen": {
+      "term": "pen",
+      "script_name": "base:pen",
+      "java_field": "ItemTag.PEN",
+      "description": "Tag for pen"
+    },
+    "pencil": {
+      "term": "pencil",
+      "script_name": "base:pencil",
+      "java_field": "ItemTag.PENCIL",
+      "description": "Tag for pencil"
+    },
+    "petrol": {
+      "term": "petrol",
+      "script_name": "base:petrol",
+      "java_field": "ItemTag.PETROL",
+      "description": "Tag for petrol"
+    },
+    "pickaramidthread": {
+      "term": "pickaramidthread",
+      "script_name": "base:pickaramidthread",
+      "java_field": "ItemTag.PICK_ARAMID_THREAD",
+      "description": "Tag for pickaramidthread"
+    },
+    "pickaxe": {
+      "term": "pickaxe",
+      "script_name": "base:pickaxe",
+      "java_field": "ItemTag.PICK_AXE",
+      "description": "Tag for pickaxe"
+    },
+    "picture": {
+      "term": "picture",
+      "script_name": "base:picture",
+      "java_field": "ItemTag.PICTURE",
+      "description": "Tag for picture"
+    },
+    "picturebook": {
+      "term": "picturebook",
+      "script_name": "base:picturebook",
+      "java_field": "ItemTag.PICTUREBOOK",
+      "description": "Tag for picturebook"
+    },
+    "piercedblock": {
+      "term": "piercedblock",
+      "script_name": "base:piercedblock",
+      "java_field": "ItemTag.PIERCED_BLOCK",
+      "description": "Tag for piercedblock"
+    },
+    "piercedchunk": {
+      "term": "piercedchunk",
+      "script_name": "base:piercedchunk",
+      "java_field": "ItemTag.PIERCED_CHUNK",
+      "description": "Tag for piercedchunk"
+    },
+    "piercedingot": {
+      "term": "piercedingot",
+      "script_name": "base:piercedingot",
+      "java_field": "ItemTag.PIERCED_INGOT",
+      "description": "Tag for piercedingot"
+    },
+    "pillow": {
+      "term": "pillow",
+      "script_name": "base:pillow",
+      "java_field": "ItemTag.PILLOW",
+      "description": "Tag for pillow"
+    },
+    "pipewrench": {
+      "term": "pipewrench",
+      "script_name": "base:pipewrench",
+      "java_field": "ItemTag.PIPE_WRENCH",
+      "description": "Tag for pipewrench"
+    },
+    "pistolmagazine": {
+      "term": "pistolmagazine",
+      "script_name": "base:pistolmagazine",
+      "java_field": "ItemTag.PISTOL_MAGAZINE",
+      "description": "Tag for pistolmagazine"
+    },
+    "pizzacutter": {
+      "term": "pizzacutter",
+      "script_name": "base:pizzacutter",
+      "java_field": "ItemTag.PIZZA_CUTTER",
+      "description": "Tag for pizzacutter"
+    },
+    "pizzasauce": {
+      "term": "pizzasauce",
+      "script_name": "base:pizzasauce",
+      "java_field": "ItemTag.PIZZA_SAUCE",
+      "description": "Tag for pizzasauce"
+    },
+    "plantain": {
+      "term": "plantain",
+      "script_name": "base:plantain",
+      "java_field": "ItemTag.PLANTAIN",
+      "description": "Tag for plantain"
+    },
+    "plasterbucket": {
+      "term": "plasterbucket",
+      "script_name": "base:plasterbucket",
+      "java_field": "ItemTag.PLASTER_BUCKET",
+      "description": "Tag for plasterbucket"
+    },
+    "plastertrowel": {
+      "term": "plastertrowel",
+      "script_name": "base:plastertrowel",
+      "java_field": "ItemTag.PLASTER_TROWEL",
+      "description": "Tag for plastertrowel"
+    },
+    "pliers": {
+      "term": "pliers",
+      "script_name": "base:pliers",
+      "java_field": "ItemTag.PLIERS",
+      "description": "Tag for pliers"
+    },
+    "preservedfood": {
+      "term": "preservedfood",
+      "script_name": "base:preservedfood",
+      "java_field": "ItemTag.PRESERVED_FOOD",
+      "description": "Tag for preservedfood"
+    },
+    "prybar": {
+      "term": "prybar",
+      "script_name": "base:prybar",
+      "java_field": "ItemTag.PRY_BAR",
+      "description": "Tag for prybar"
+    },
+    "puppers": {
+      "term": "puppers",
+      "script_name": "base:puppers",
+      "java_field": "ItemTag.PUPPERS",
+      "description": "Tag for puppers"
+    },
+    "purifywater": {
+      "term": "purifywater",
+      "script_name": "base:purifywater",
+      "java_field": "ItemTag.PURIFY_WATER",
+      "description": "Tag for purifywater"
+    },
+    "quarterbarstock": {
+      "term": "quarterbarstock",
+      "script_name": "base:quarterbarstock",
+      "java_field": "ItemTag.QUARTER_BAR_STOCK",
+      "description": "Tag for quarterbarstock"
+    },
+    "ragfilter": {
+      "term": "ragfilter",
+      "script_name": "base:ragfilter",
+      "java_field": "ItemTag.RAG_FILTER",
+      "description": "Tag for ragfilter"
+    },
+    "railroadspikepuller": {
+      "term": "railroadspikepuller",
+      "script_name": "base:railroadspikepuller",
+      "java_field": "ItemTag.RAILROAD_SPIKE_PULLER",
+      "description": "Tag for railroadspikepuller"
+    },
+    "razor": {
+      "term": "razor",
+      "script_name": "base:razor",
+      "java_field": "ItemTag.RAZOR",
+      "description": "Tag for razor"
+    },
+    "redpen": {
+      "term": "redpen",
+      "script_name": "base:redpen",
+      "java_field": "ItemTag.RED_PEN",
+      "description": "Tag for redpen"
+    },
+    "refillablelighter": {
+      "term": "refillablelighter",
+      "script_name": "base:refillablelighter",
+      "java_field": "ItemTag.REFILLABLE_LIGHTER",
+      "description": "Tag for refillablelighter"
+    },
+    "regional": {
+      "term": "regional",
+      "script_name": "base:regional",
+      "java_field": "ItemTag.REGIONAL",
+      "description": "Tag for regional"
+    },
+    "reloadfastbullets": {
+      "term": "reloadfastbullets",
+      "script_name": "base:reloadfastbullets",
+      "java_field": "ItemTag.RELOAD_FAST_BULLETS",
+      "description": "Tag for reloadfastbullets"
+    },
+    "reloadfastmagazines": {
+      "term": "reloadfastmagazines",
+      "script_name": "base:reloadfastmagazines",
+      "java_field": "ItemTag.RELOAD_FAST_MAGAZINES",
+      "description": "Tag for reloadfastmagazines"
+    },
+    "reloadfastshells": {
+      "term": "reloadfastshells",
+      "script_name": "base:reloadfastshells",
+      "java_field": "ItemTag.RELOAD_FAST_SHELLS",
+      "description": "Tag for reloadfastshells"
+    },
+    "removebarricade": {
+      "term": "removebarricade",
+      "script_name": "base:removebarricade",
+      "java_field": "ItemTag.REMOVE_BARRICADE",
+      "description": "Tag for removebarricade"
+    },
+    "removebullet": {
+      "term": "removebullet",
+      "script_name": "base:removebullet",
+      "java_field": "ItemTag.REMOVE_BULLET",
+      "description": "Tag for removebullet"
+    },
+    "removeglass": {
+      "term": "removeglass",
+      "script_name": "base:removeglass",
+      "java_field": "ItemTag.REMOVE_GLASS",
+      "description": "Tag for removeglass"
+    },
+    "removestump": {
+      "term": "removestump",
+      "script_name": "base:removestump",
+      "java_field": "ItemTag.REMOVE_STUMP",
+      "description": "Tag for removestump"
+    },
+    "repairablesawblade": {
+      "term": "repairablesawblade",
+      "script_name": "base:repairablesawblade",
+      "java_field": "ItemTag.REPAIRABLE_SAWBLADE",
+      "description": "Tag for repairablesawblade"
+    },
+    "repairwithepoxy": {
+      "term": "repairwithepoxy",
+      "script_name": "base:repairwithepoxy",
+      "java_field": "ItemTag.REPAIR_WITH_EPOXY",
+      "description": "Tag for repairwithepoxy"
+    },
+    "repairwithglue": {
+      "term": "repairwithglue",
+      "script_name": "base:repairwithglue",
+      "java_field": "ItemTag.REPAIR_WITH_GLUE",
+      "description": "Tag for repairwithglue"
+    },
+    "repairwithtape": {
+      "term": "repairwithtape",
+      "script_name": "base:repairwithtape",
+      "java_field": "ItemTag.REPAIR_WITH_TAPE",
+      "description": "Tag for repairwithtape"
+    },
+    "replaceprimary": {
+      "term": "replaceprimary",
+      "script_name": "base:replaceprimary",
+      "java_field": "ItemTag.REPLACE_PRIMARY",
+      "description": "Tag for replaceprimary"
+    },
+    "respirator": {
+      "term": "respirator",
+      "script_name": "base:respirator",
+      "java_field": "ItemTag.RESPIRATOR",
+      "description": "Tag for respirator"
+    },
+    "respiratorfilter": {
+      "term": "respiratorfilter",
+      "script_name": "base:respiratorfilter",
+      "java_field": "ItemTag.RESPIRATOR_FILTER",
+      "description": "Tag for respiratorfilter"
+    },
+    "respiratornofilter": {
+      "term": "respiratornofilter",
+      "script_name": "base:respiratornofilter",
+      "java_field": "ItemTag.RESPIRATOR_NO_FILTER",
+      "description": "Tag for respiratornofilter"
+    },
+    "reusablebandage": {
+      "term": "reusablebandage",
+      "script_name": "base:reusablebandage",
+      "java_field": "ItemTag.REUSABLE_BANDAGE",
+      "description": "Tag for reusablebandage"
+    },
+    "ricerecipe": {
+      "term": "ricerecipe",
+      "script_name": "base:ricerecipe",
+      "java_field": "ItemTag.RICE_RECIPE",
+      "description": "Tag for ricerecipe"
+    },
+    "riflemagazine": {
+      "term": "riflemagazine",
+      "script_name": "base:riflemagazine",
+      "java_field": "ItemTag.RIFLE_MAGAZINE",
+      "description": "Tag for riflemagazine"
+    },
+    "ripclothigcotton": {
+      "term": "ripclothigcotton",
+      "script_name": "base:ripclothigcotton",
+      "java_field": "ItemTag.RIP_CLOTHIG_COTTON",
+      "description": "Tag for ripclothigcotton"
+    },
+    "ripclothingcoton": {
+      "term": "ripclothingcoton",
+      "script_name": "base:ripclothingcoton",
+      "java_field": "ItemTag.RIP_CLOTHING_COTON",
+      "description": "Tag for ripclothingcoton"
+    },
+    "ripclothingcotton": {
+      "term": "ripclothingcotton",
+      "script_name": "base:ripclothingcotton",
+      "java_field": "ItemTag.RIP_CLOTHING_COTTON",
+      "description": "Tag for ripclothingcotton"
+    },
+    "ripclothingdenim": {
+      "term": "ripclothingdenim",
+      "script_name": "base:ripclothingdenim",
+      "java_field": "ItemTag.RIP_CLOTHING_DENIM",
+      "description": "Tag for ripclothingdenim"
+    },
+    "ripclothingleather": {
+      "term": "ripclothingleather",
+      "script_name": "base:ripclothingleather",
+      "java_field": "ItemTag.RIP_CLOTHING_LEATHER",
+      "description": "Tag for ripclothingleather"
+    },
+    "rollingpaper": {
+      "term": "rollingpaper",
+      "script_name": "base:rollingpaper",
+      "java_field": "ItemTag.ROLLING_PAPER",
+      "description": "Tag for rollingpaper"
+    },
+    "rollingpin": {
+      "term": "rollingpin",
+      "script_name": "base:rollingpin",
+      "java_field": "ItemTag.ROLLING_PIN",
+      "description": "Tag for rollingpin"
+    },
+    "rope": {
+      "term": "rope",
+      "script_name": "base:rope",
+      "java_field": "ItemTag.ROPE",
+      "description": "Tag for rope"
+    },
+    "rubyjewellery": {
+      "term": "rubyjewellery",
+      "script_name": "base:rubyjewellery",
+      "java_field": "ItemTag.RUBY_JEWELLERY",
+      "description": "Tag for rubyjewellery"
+    },
+    "salt": {
+      "term": "salt",
+      "script_name": "base:salt",
+      "java_field": "ItemTag.SALT",
+      "description": "Tag for salt"
+    },
+    "sapphirejewellery": {
+      "term": "sapphirejewellery",
+      "script_name": "base:sapphirejewellery",
+      "java_field": "ItemTag.SAPPHIRE_JEWELLERY",
+      "description": "Tag for sapphirejewellery"
+    },
+    "saw": {
+      "term": "saw",
+      "script_name": "base:saw",
+      "java_field": "ItemTag.SAW",
+      "description": "Tag for saw"
+    },
+    "sawblade": {
+      "term": "sawblade",
+      "script_name": "base:sawblade",
+      "java_field": "ItemTag.SAW_BLADE",
+      "description": "Tag for sawblade"
+    },
+    "scba": {
+      "term": "scba",
+      "script_name": "base:scba",
+      "java_field": "ItemTag.SCBA",
+      "description": "Tag for scba"
+    },
+    "scbanotank": {
+      "term": "scbanotank",
+      "script_name": "base:scbanotank",
+      "java_field": "ItemTag.SCBANO_TANK",
+      "description": "Tag for scbanotank"
+    },
+    "scissors": {
+      "term": "scissors",
+      "script_name": "base:scissors",
+      "java_field": "ItemTag.SCISSORS",
+      "description": "Tag for scissors"
+    },
+    "scrapaluminum": {
+      "term": "scrapaluminum",
+      "script_name": "base:scrapaluminum",
+      "java_field": "ItemTag.SCRAP_ALUMINUM",
+      "description": "Tag for scrapaluminum"
+    },
+    "scrapaluminumlarge": {
+      "term": "scrapaluminumlarge",
+      "script_name": "base:scrapaluminumlarge",
+      "java_field": "ItemTag.SCRAP_ALUMINUM_LARGE",
+      "description": "Tag for scrapaluminumlarge"
+    },
+    "scrapasbelt": {
+      "term": "scrapasbelt",
+      "script_name": "base:scrapasbelt",
+      "java_field": "ItemTag.SCRAP_AS_BELT",
+      "description": "Tag for scrapasbelt"
+    },
+    "scraplargecopper": {
+      "term": "scraplargecopper",
+      "script_name": "base:scraplargecopper",
+      "java_field": "ItemTag.SCRAP_LARGE_COPPER",
+      "description": "Tag for scraplargecopper"
+    },
+    "scraplargesteel": {
+      "term": "scraplargesteel",
+      "script_name": "base:scraplargesteel",
+      "java_field": "ItemTag.SCRAP_LARGE_STEEL",
+      "description": "Tag for scraplargesteel"
+    },
+    "scrapsmallcopper": {
+      "term": "scrapsmallcopper",
+      "script_name": "base:scrapsmallcopper",
+      "java_field": "ItemTag.SCRAP_SMALL_COPPER",
+      "description": "Tag for scrapsmallcopper"
+    },
+    "screwdriver": {
+      "term": "screwdriver",
+      "script_name": "base:screwdriver",
+      "java_field": "ItemTag.SCREWDRIVER",
+      "description": "Tag for screwdriver"
+    },
+    "scythe": {
+      "term": "scythe",
+      "script_name": "base:scythe",
+      "java_field": "ItemTag.SCYTHE",
+      "description": "Tag for scythe"
+    },
+    "sealedbeveragecan": {
+      "term": "sealedbeveragecan",
+      "script_name": "base:sealedbeveragecan",
+      "java_field": "ItemTag.SEALED_BEVERAGE_CAN",
+      "description": "Tag for sealedbeveragecan"
+    },
+    "sewingneedle": {
+      "term": "sewingneedle",
+      "script_name": "base:sewingneedle",
+      "java_field": "ItemTag.SEWING_NEEDLE",
+      "description": "Tag for sewingneedle"
+    },
+    "sharpenable": {
+      "term": "sharpenable",
+      "script_name": "base:sharpenable",
+      "java_field": "ItemTag.SHARPENABLE",
+      "description": "Tag for sharpenable"
+    },
+    "sharpknife": {
+      "term": "sharpknife",
+      "script_name": "base:sharpknife",
+      "java_field": "ItemTag.SHARP_KNIFE",
+      "description": "Tag for sharpknife"
+    },
+    "shear": {
+      "term": "shear",
+      "script_name": "base:shear",
+      "java_field": "ItemTag.SHEAR",
+      "description": "Tag for shear"
+    },
+    "sheet": {
+      "term": "sheet",
+      "script_name": "base:sheet",
+      "java_field": "ItemTag.SHEET",
+      "description": "Tag for sheet"
+    },
+    "sheetmetalsnips": {
+      "term": "sheetmetalsnips",
+      "script_name": "base:sheetmetalsnips",
+      "java_field": "ItemTag.SHEET_METAL_SNIPS",
+      "description": "Tag for sheetmetalsnips"
+    },
+    "shotgunshell": {
+      "term": "shotgunshell",
+      "script_name": "base:shotgunshell",
+      "java_field": "ItemTag.SHOTGUN_SHELL",
+      "description": "Tag for shotgunshell"
+    },
+    "showcondition": {
+      "term": "showcondition",
+      "script_name": "base:showcondition",
+      "java_field": "ItemTag.SHOW_CONDITION",
+      "description": "Tag for showcondition"
+    },
+    "showpoison": {
+      "term": "showpoison",
+      "script_name": "base:showpoison",
+      "java_field": "ItemTag.SHOW_POISON",
+      "description": "Tag for showpoison"
+    },
+    "silverscrap": {
+      "term": "silverscrap",
+      "script_name": "base:silverscrap",
+      "java_field": "ItemTag.SILVER_SCRAP",
+      "description": "Tag for silverscrap"
+    },
+    "simpleweaponbinding": {
+      "term": "simpleweaponbinding",
+      "script_name": "base:simpleweaponbinding",
+      "java_field": "ItemTag.SIMPLE_WEAPON_BINDING",
+      "description": "Tag for simpleweaponbinding"
+    },
+    "siphongas": {
+      "term": "siphongas",
+      "script_name": "base:siphongas",
+      "java_field": "ItemTag.SIPHON_GAS",
+      "description": "Tag for siphongas"
+    },
+    "sledgehammer": {
+      "term": "sledgehammer",
+      "script_name": "base:sledgehammer",
+      "java_field": "ItemTag.SLEDGEHAMMER",
+      "description": "Tag for sledgehammer"
+    },
+    "smallergoldscrap": {
+      "term": "smallergoldscrap",
+      "script_name": "base:smallergoldscrap",
+      "java_field": "ItemTag.SMALLER_GOLD_SCRAP",
+      "description": "Tag for smallergoldscrap"
+    },
+    "smallersilverscrap": {
+      "term": "smallersilverscrap",
+      "script_name": "base:smallersilverscrap",
+      "java_field": "ItemTag.SMALLER_SILVER_SCRAP",
+      "description": "Tag for smallersilverscrap"
+    },
+    "smallestgoldscrap": {
+      "term": "smallestgoldscrap",
+      "script_name": "base:smallestgoldscrap",
+      "java_field": "ItemTag.SMALLEST_GOLD_SCRAP",
+      "description": "Tag for smallestgoldscrap"
+    },
+    "smallestsilverscrap": {
+      "term": "smallestsilverscrap",
+      "script_name": "base:smallestsilverscrap",
+      "java_field": "ItemTag.SMALLEST_SILVER_SCRAP",
+      "description": "Tag for smallestsilverscrap"
+    },
+    "smallanimalbone": {
+      "term": "smallanimalbone",
+      "script_name": "base:smallanimalbone",
+      "java_field": "ItemTag.SMALL_ANIMAL_BONE",
+      "description": "Tag for smallanimalbone"
+    },
+    "smallfiles": {
+      "term": "smallfiles",
+      "script_name": "base:smallfiles",
+      "java_field": "ItemTag.SMALL_FILES",
+      "description": "Tag for smallfiles"
+    },
+    "smallgoldscrap": {
+      "term": "smallgoldscrap",
+      "script_name": "base:smallgoldscrap",
+      "java_field": "ItemTag.SMALL_GOLD_SCRAP",
+      "description": "Tag for smallgoldscrap"
+    },
+    "smallpunch": {
+      "term": "smallpunch",
+      "script_name": "base:smallpunch",
+      "java_field": "ItemTag.SMALL_PUNCH",
+      "description": "Tag for smallpunch"
+    },
+    "smallsaw": {
+      "term": "smallsaw",
+      "script_name": "base:smallsaw",
+      "java_field": "ItemTag.SMALL_SAW",
+      "description": "Tag for smallsaw"
+    },
+    "smallsheetmetal": {
+      "term": "smallsheetmetal",
+      "script_name": "base:smallsheetmetal",
+      "java_field": "ItemTag.SMALL_SHEET_METAL",
+      "description": "Tag for smallsheetmetal"
+    },
+    "smallsilverscrap": {
+      "term": "smallsilverscrap",
+      "script_name": "base:smallsilverscrap",
+      "java_field": "ItemTag.SMALL_SILVER_SCRAP",
+      "description": "Tag for smallsilverscrap"
+    },
+    "smeltableironlarge": {
+      "term": "smeltableironlarge",
+      "script_name": "base:smeltableironlarge",
+      "java_field": "ItemTag.SMELTABLE_IRON_LARGE",
+      "description": "Tag for smeltableironlarge"
+    },
+    "smeltableironmedium": {
+      "term": "smeltableironmedium",
+      "script_name": "base:smeltableironmedium",
+      "java_field": "ItemTag.SMELTABLE_IRON_MEDIUM",
+      "description": "Tag for smeltableironmedium"
+    },
+    "smeltableironmediumplus": {
+      "term": "smeltableironmediumplus",
+      "script_name": "base:smeltableironmediumplus",
+      "java_field": "ItemTag.SMELTABLE_IRON_MEDIUM_PLUS",
+      "description": "Tag for smeltableironmediumplus"
+    },
+    "smeltableironsmall": {
+      "term": "smeltableironsmall",
+      "script_name": "base:smeltableironsmall",
+      "java_field": "ItemTag.SMELTABLE_IRON_SMALL",
+      "description": "Tag for smeltableironsmall"
+    },
+    "smeltablesteellarge": {
+      "term": "smeltablesteellarge",
+      "script_name": "base:smeltablesteellarge",
+      "java_field": "ItemTag.SMELTABLE_STEEL_LARGE",
+      "description": "Tag for smeltablesteellarge"
+    },
+    "smeltablesteelmedium": {
+      "term": "smeltablesteelmedium",
+      "script_name": "base:smeltablesteelmedium",
+      "java_field": "ItemTag.SMELTABLE_STEEL_MEDIUM",
+      "description": "Tag for smeltablesteelmedium"
+    },
+    "smeltablesteelmediumplus": {
+      "term": "smeltablesteelmediumplus",
+      "script_name": "base:smeltablesteelmediumplus",
+      "java_field": "ItemTag.SMELTABLE_STEEL_MEDIUM_PLUS",
+      "description": "Tag for smeltablesteelmediumplus"
+    },
+    "smeltablesteelsmall": {
+      "term": "smeltablesteelsmall",
+      "script_name": "base:smeltablesteelsmall",
+      "java_field": "ItemTag.SMELTABLE_STEEL_SMALL",
+      "description": "Tag for smeltablesteelsmall"
+    },
+    "smithinghammer": {
+      "term": "smithinghammer",
+      "script_name": "base:smithinghammer",
+      "java_field": "ItemTag.SMITHING_HAMMER",
+      "description": "Tag for smithinghammer"
+    },
+    "smokable": {
+      "term": "smokable",
+      "script_name": "base:smokable",
+      "java_field": "ItemTag.SMOKABLE",
+      "description": "Tag for smokable"
+    },
+    "softcover": {
+      "term": "softcover",
+      "script_name": "base:softcover",
+      "java_field": "ItemTag.SOFTCOVER",
+      "description": "Tag for softcover"
+    },
+    "spawncooked": {
+      "term": "spawncooked",
+      "script_name": "base:spawncooked",
+      "java_field": "ItemTag.SPAWN_COOKED",
+      "description": "Tag for spawncooked"
+    },
+    "spawnfullunlesslaundry": {
+      "term": "spawnfullunlesslaundry",
+      "script_name": "base:spawnfullunlesslaundry",
+      "java_field": "ItemTag.SPAWN_FULL_UNLESS_LAUNDRY",
+      "description": "Tag for spawnfullunlesslaundry"
+    },
+    "spearhead": {
+      "term": "spearhead",
+      "script_name": "base:spearhead",
+      "java_field": "ItemTag.SPEAR_HEAD",
+      "description": "Tag for spearhead"
+    },
+    "spiked": {
+      "term": "spiked",
+      "script_name": "base:spiked",
+      "java_field": "ItemTag.SPIKED",
+      "description": "Tag for spiked"
+    },
+    "spikedbehind": {
+      "term": "spikedbehind",
+      "script_name": "base:spikedbehind",
+      "java_field": "ItemTag.SPIKED_BEHIND",
+      "description": "Tag for spikedbehind"
+    },
+    "spoon": {
+      "term": "spoon",
+      "script_name": "base:spoon",
+      "java_field": "ItemTag.SPOON",
+      "description": "Tag for spoon"
+    },
+    "sprayer": {
+      "term": "sprayer",
+      "script_name": "base:sprayer",
+      "java_field": "ItemTag.SPRAYER",
+      "description": "Tag for sprayer"
+    },
+    "startfire": {
+      "term": "startfire",
+      "script_name": "base:startfire",
+      "java_field": "ItemTag.START_FIRE",
+      "description": "Tag for startfire"
+    },
+    "steelmaterial": {
+      "term": "steelmaterial",
+      "script_name": "base:steelmaterial",
+      "java_field": "ItemTag.STEEL_MATERIAL",
+      "description": "Tag for steelmaterial"
+    },
+    "stone": {
+      "term": "stone",
+      "script_name": "base:stone",
+      "java_field": "ItemTag.STONE",
+      "description": "Tag for stone"
+    },
+    "stonemaul": {
+      "term": "stonemaul",
+      "script_name": "base:stonemaul",
+      "java_field": "ItemTag.STONE_MAUL",
+      "description": "Tag for stonemaul"
+    },
+    "sugar": {
+      "term": "sugar",
+      "script_name": "base:sugar",
+      "java_field": "ItemTag.SUGAR",
+      "description": "Tag for sugar"
+    },
+    "takedirt": {
+      "term": "takedirt",
+      "script_name": "base:takedirt",
+      "java_field": "ItemTag.TAKE_DIRT",
+      "description": "Tag for takedirt"
+    },
+    "takedung": {
+      "term": "takedung",
+      "script_name": "base:takedung",
+      "java_field": "ItemTag.TAKE_DUNG",
+      "description": "Tag for takedung"
+    },
+    "tape": {
+      "term": "tape",
+      "script_name": "base:tape",
+      "java_field": "ItemTag.TAPE",
+      "description": "Tag for tape"
+    },
+    "tentbed": {
+      "term": "tentbed",
+      "script_name": "base:tentbed",
+      "java_field": "ItemTag.TENT_BED",
+      "description": "Tag for tentbed"
+    },
+    "tentpeg": {
+      "term": "tentpeg",
+      "script_name": "base:tentpeg",
+      "java_field": "ItemTag.TENT_PEG",
+      "description": "Tag for tentpeg"
+    },
+    "thermal": {
+      "term": "thermal",
+      "script_name": "base:thermal",
+      "java_field": "ItemTag.THERMAL",
+      "description": "Tag for thermal"
+    },
+    "thimble": {
+      "term": "thimble",
+      "script_name": "base:thimble",
+      "java_field": "ItemTag.THIMBLE",
+      "description": "Tag for thimble"
+    },
+    "thread": {
+      "term": "thread",
+      "script_name": "base:thread",
+      "java_field": "ItemTag.THREAD",
+      "description": "Tag for thread"
+    },
+    "tinygoldscrap": {
+      "term": "tinygoldscrap",
+      "script_name": "base:tinygoldscrap",
+      "java_field": "ItemTag.TINY_GOLD_SCRAP",
+      "description": "Tag for tinygoldscrap"
+    },
+    "tinysilverscrap": {
+      "term": "tinysilverscrap",
+      "script_name": "base:tinysilverscrap",
+      "java_field": "ItemTag.TINY_SILVER_SCRAP",
+      "description": "Tag for tinysilverscrap"
+    },
+    "tincan": {
+      "term": "tincan",
+      "script_name": "base:tincan",
+      "java_field": "ItemTag.TIN_CAN",
+      "description": "Tag for tincan"
+    },
+    "toastable": {
+      "term": "toastable",
+      "script_name": "base:toastable",
+      "java_field": "ItemTag.TOASTABLE",
+      "description": "Tag for toastable"
+    },
+    "tobacco": {
+      "term": "tobacco",
+      "script_name": "base:tobacco",
+      "java_field": "ItemTag.TOBACCO",
+      "description": "Tag for tobacco"
+    },
+    "toiletbrush": {
+      "term": "toiletbrush",
+      "script_name": "base:toiletbrush",
+      "java_field": "ItemTag.TOILET_BRUSH",
+      "description": "Tag for toiletbrush"
+    },
+    "tongs": {
+      "term": "tongs",
+      "script_name": "base:tongs",
+      "java_field": "ItemTag.TONGS",
+      "description": "Tag for tongs"
+    },
+    "toolhead": {
+      "term": "toolhead",
+      "script_name": "base:toolhead",
+      "java_field": "ItemTag.TOOL_HEAD",
+      "description": "Tag for toolhead"
+    },
+    "tvremote": {
+      "term": "tvremote",
+      "script_name": "base:tvremote",
+      "java_field": "ItemTag.TVREMOTE",
+      "description": "Tag for tvremote"
+    },
+    "tweezers": {
+      "term": "tweezers",
+      "script_name": "base:tweezers",
+      "java_field": "ItemTag.TWEEZERS",
+      "description": "Tag for tweezers"
+    },
+    "twine": {
+      "term": "twine",
+      "script_name": "base:twine",
+      "java_field": "ItemTag.TWINE",
+      "description": "Tag for twine"
+    },
+    "2diamondjewellery": {
+      "term": "2diamondjewellery",
+      "script_name": "base:2diamondjewellery",
+      "java_field": "ItemTag.TWO_DIAMOND_JEWELLERY",
+      "description": "Tag for 2diamondjewellery"
+    },
+    "2emeraldjewellery": {
+      "term": "2emeraldjewellery",
+      "script_name": "base:2emeraldjewellery",
+      "java_field": "ItemTag.TWO_EMERALD_JEWELLERY",
+      "description": "Tag for 2emeraldjewellery"
+    },
+    "2rubyjewellery": {
+      "term": "2rubyjewellery",
+      "script_name": "base:2rubyjewellery",
+      "java_field": "ItemTag.TWO_RUBY_JEWELLERY",
+      "description": "Tag for 2rubyjewellery"
+    },
+    "2sapphirejewellery": {
+      "term": "2sapphirejewellery",
+      "script_name": "base:2sapphirejewellery",
+      "java_field": "ItemTag.TWO_SAPPHIRE_JEWELLERY",
+      "description": "Tag for 2sapphirejewellery"
+    },
+    "uncutfish": {
+      "term": "uncutfish",
+      "script_name": "base:uncutfish",
+      "java_field": "ItemTag.UNCUT_FISH",
+      "description": "Tag for uncutfish"
+    },
+    "uninteresting": {
+      "term": "uninteresting",
+      "script_name": "base:uninteresting",
+      "java_field": "ItemTag.UNINTERESTING",
+      "description": "Tag for uninteresting"
+    },
+    "unlitlantern": {
+      "term": "unlitlantern",
+      "script_name": "base:unlitlantern",
+      "java_field": "ItemTag.UNLIT_LANTERN",
+      "description": "Tag for unlitlantern"
+    },
+    "usesbattery": {
+      "term": "usesbattery",
+      "script_name": "base:usesbattery",
+      "java_field": "ItemTag.USES_BATTERY",
+      "description": "Tag for usesbattery"
+    },
+    "useall": {
+      "term": "useall",
+      "script_name": "base:useall",
+      "java_field": "ItemTag.USE_ALL",
+      "description": "Tag for useall"
+    },
+    "usedisplayname": {
+      "term": "usedisplayname",
+      "script_name": "base:usedisplayname",
+      "java_field": "ItemTag.USE_DISPLAY_NAME",
+      "description": "Tag for usedisplayname"
+    },
+    "useworldstaticmodel": {
+      "term": "useworldstaticmodel",
+      "script_name": "base:useworldstaticmodel",
+      "java_field": "ItemTag.USE_WORLD_STATIC_MODEL",
+      "description": "Tag for useworldstaticmodel"
+    },
+    "vermin": {
+      "term": "vermin",
+      "script_name": "base:vermin",
+      "java_field": "ItemTag.VERMIN",
+      "description": "Tag for vermin"
+    },
+    "vinegar": {
+      "term": "vinegar",
+      "script_name": "base:vinegar",
+      "java_field": "ItemTag.VINEGAR",
+      "description": "Tag for vinegar"
+    },
+    "visegrips": {
+      "term": "visegrips",
+      "script_name": "base:visegrips",
+      "java_field": "ItemTag.VISE_GRIPS",
+      "description": "Tag for visegrips"
+    },
+    "wallpaper": {
+      "term": "wallpaper",
+      "script_name": "base:wallpaper",
+      "java_field": "ItemTag.WALLPAPER",
+      "description": "Tag for wallpaper"
+    },
+    "wallpaperpaste": {
+      "term": "wallpaperpaste",
+      "script_name": "base:wallpaperpaste",
+      "java_field": "ItemTag.WALLPAPER_PASTE",
+      "description": "Tag for wallpaperpaste"
+    },
+    "wearable": {
+      "term": "wearable",
+      "script_name": "base:wearable",
+      "java_field": "ItemTag.WEARABLE",
+      "description": "Tag for wearable"
+    },
+    "weldingmask": {
+      "term": "weldingmask",
+      "script_name": "base:weldingmask",
+      "java_field": "ItemTag.WELDING_MASK",
+      "description": "Tag for weldingmask"
+    },
+    "wetbeverageingredient": {
+      "term": "wetbeverageingredient",
+      "script_name": "base:wetbeverageingredient",
+      "java_field": "ItemTag.WET_BEVERAGE_INGREDIENT",
+      "description": "Tag for wetbeverageingredient"
+    },
+    "whetstone": {
+      "term": "whetstone",
+      "script_name": "base:whetstone",
+      "java_field": "ItemTag.WHETSTONE",
+      "description": "Tag for whetstone"
+    },
+    "whistle": {
+      "term": "whistle",
+      "script_name": "base:whistle",
+      "java_field": "ItemTag.WHISTLE",
+      "description": "Tag for whistle"
+    },
+    "wholetire": {
+      "term": "wholetire",
+      "script_name": "base:wholetire",
+      "java_field": "ItemTag.WHOLE_TIRE",
+      "description": "Tag for wholetire"
+    },
+    "wildgarlic": {
+      "term": "wildgarlic",
+      "script_name": "base:wildgarlic",
+      "java_field": "ItemTag.WILD_GARLIC",
+      "description": "Tag for wildgarlic"
+    },
+    "wire": {
+      "term": "wire",
+      "script_name": "base:wire",
+      "java_field": "ItemTag.WIRE",
+      "description": "Tag for wire"
+    },
+    "woodhandle": {
+      "term": "woodhandle",
+      "script_name": "base:woodhandle",
+      "java_field": "ItemTag.WOOD_HANDLE",
+      "description": "Tag for woodhandle"
+    },
+    "wrench": {
+      "term": "wrench",
+      "script_name": "base:wrench",
+      "java_field": "ItemTag.WRENCH",
+      "description": "Tag for wrench"
+    },
+    "write": {
+      "term": "write",
+      "script_name": "base:write",
+      "java_field": "ItemTag.WRITE",
+      "description": "Tag for write"
+    }
+  },
+  "body_locations": {
+    "itembodylocation.ammo_strap": {
+      "term": "ItemBodyLocation.AMMO_STRAP",
+      "description": "Body location slot: ItemBodyLocation.AMMO_STRAP"
+    },
+    "itembodylocation.ankle_holster": {
+      "term": "ItemBodyLocation.ANKLE_HOLSTER",
+      "description": "Body location slot: ItemBodyLocation.ANKLE_HOLSTER"
+    },
+    "itembodylocation.back": {
+      "term": "ItemBodyLocation.BACK",
+      "description": "Body location slot: ItemBodyLocation.BACK"
+    },
+    "itembodylocation.bandage": {
+      "term": "ItemBodyLocation.BANDAGE",
+      "description": "Body location slot: ItemBodyLocation.BANDAGE"
+    },
+    "itembodylocation.bath_robe": {
+      "term": "ItemBodyLocation.BATH_ROBE",
+      "description": "Body location slot: ItemBodyLocation.BATH_ROBE"
+    },
+    "itembodylocation.belly_button": {
+      "term": "ItemBodyLocation.BELLY_BUTTON",
+      "description": "Body location slot: ItemBodyLocation.BELLY_BUTTON"
+    },
+    "itembodylocation.belt": {
+      "term": "ItemBodyLocation.BELT",
+      "description": "Body location slot: ItemBodyLocation.BELT"
+    },
+    "itembodylocation.belt_extra": {
+      "term": "ItemBodyLocation.BELT_EXTRA",
+      "description": "Body location slot: ItemBodyLocation.BELT_EXTRA"
+    },
+    "itembodylocation.body_costume": {
+      "term": "ItemBodyLocation.BODY_COSTUME",
+      "description": "Body location slot: ItemBodyLocation.BODY_COSTUME"
+    },
+    "itembodylocation.boilersuit": {
+      "term": "ItemBodyLocation.BOILERSUIT",
+      "description": "Body location slot: ItemBodyLocation.BOILERSUIT"
+    },
+    "itembodylocation.calf_left": {
+      "term": "ItemBodyLocation.CALF_LEFT",
+      "description": "Body location slot: ItemBodyLocation.CALF_LEFT"
+    },
+    "itembodylocation.calf_left_texture": {
+      "term": "ItemBodyLocation.CALF_LEFT_TEXTURE",
+      "description": "Body location slot: ItemBodyLocation.CALF_LEFT_TEXTURE"
+    },
+    "itembodylocation.calf_right": {
+      "term": "ItemBodyLocation.CALF_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.CALF_RIGHT"
+    },
+    "itembodylocation.calf_right_texture": {
+      "term": "ItemBodyLocation.CALF_RIGHT_TEXTURE",
+      "description": "Body location slot: ItemBodyLocation.CALF_RIGHT_TEXTURE"
+    },
+    "itembodylocation.codpiece": {
+      "term": "ItemBodyLocation.CODPIECE",
+      "description": "Body location slot: ItemBodyLocation.CODPIECE"
+    },
+    "itembodylocation.cuirass": {
+      "term": "ItemBodyLocation.CUIRASS",
+      "description": "Body location slot: ItemBodyLocation.CUIRASS"
+    },
+    "itembodylocation.dress": {
+      "term": "ItemBodyLocation.DRESS",
+      "description": "Body location slot: ItemBodyLocation.DRESS"
+    },
+    "itembodylocation.ear_top": {
+      "term": "ItemBodyLocation.EAR_TOP",
+      "description": "Body location slot: ItemBodyLocation.EAR_TOP"
+    },
+    "itembodylocation.ears": {
+      "term": "ItemBodyLocation.EARS",
+      "description": "Body location slot: ItemBodyLocation.EARS"
+    },
+    "itembodylocation.elbow_left": {
+      "term": "ItemBodyLocation.ELBOW_LEFT",
+      "description": "Body location slot: ItemBodyLocation.ELBOW_LEFT"
+    },
+    "itembodylocation.elbow_right": {
+      "term": "ItemBodyLocation.ELBOW_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.ELBOW_RIGHT"
+    },
+    "itembodylocation.eyes": {
+      "term": "ItemBodyLocation.EYES",
+      "description": "Body location slot: ItemBodyLocation.EYES"
+    },
+    "itembodylocation.fanny_pack_back": {
+      "term": "ItemBodyLocation.FANNY_PACK_BACK",
+      "description": "Body location slot: ItemBodyLocation.FANNY_PACK_BACK"
+    },
+    "itembodylocation.fanny_pack_front": {
+      "term": "ItemBodyLocation.FANNY_PACK_FRONT",
+      "description": "Body location slot: ItemBodyLocation.FANNY_PACK_FRONT"
+    },
+    "itembodylocation.fore_arm_left": {
+      "term": "ItemBodyLocation.FORE_ARM_LEFT",
+      "description": "Body location slot: ItemBodyLocation.FORE_ARM_LEFT"
+    },
+    "itembodylocation.fore_arm_right": {
+      "term": "ItemBodyLocation.FORE_ARM_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.FORE_ARM_RIGHT"
+    },
+    "itembodylocation.full_hat": {
+      "term": "ItemBodyLocation.FULL_HAT",
+      "description": "Body location slot: ItemBodyLocation.FULL_HAT"
+    },
+    "itembodylocation.full_robe": {
+      "term": "ItemBodyLocation.FULL_ROBE",
+      "description": "Body location slot: ItemBodyLocation.FULL_ROBE"
+    },
+    "itembodylocation.full_suit": {
+      "term": "ItemBodyLocation.FULL_SUIT",
+      "description": "Body location slot: ItemBodyLocation.FULL_SUIT"
+    },
+    "itembodylocation.full_suit_head": {
+      "term": "ItemBodyLocation.FULL_SUIT_HEAD",
+      "description": "Body location slot: ItemBodyLocation.FULL_SUIT_HEAD"
+    },
+    "itembodylocation.full_suit_head_scba": {
+      "term": "ItemBodyLocation.FULL_SUIT_HEAD_SCBA",
+      "description": "Body location slot: ItemBodyLocation.FULL_SUIT_HEAD_SCBA"
+    },
+    "itembodylocation.full_top": {
+      "term": "ItemBodyLocation.FULL_TOP",
+      "description": "Body location slot: ItemBodyLocation.FULL_TOP"
+    },
+    "itembodylocation.gaiter_left": {
+      "term": "ItemBodyLocation.GAITER_LEFT",
+      "description": "Body location slot: ItemBodyLocation.GAITER_LEFT"
+    },
+    "itembodylocation.gaiter_right": {
+      "term": "ItemBodyLocation.GAITER_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.GAITER_RIGHT"
+    },
+    "itembodylocation.gorget": {
+      "term": "ItemBodyLocation.GORGET",
+      "description": "Body location slot: ItemBodyLocation.GORGET"
+    },
+    "itembodylocation.hands": {
+      "term": "ItemBodyLocation.HANDS",
+      "description": "Body location slot: ItemBodyLocation.HANDS"
+    },
+    "itembodylocation.hands_left": {
+      "term": "ItemBodyLocation.HANDS_LEFT",
+      "description": "Body location slot: ItemBodyLocation.HANDS_LEFT"
+    },
+    "itembodylocation.hands_right": {
+      "term": "ItemBodyLocation.HANDS_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.HANDS_RIGHT"
+    },
+    "itembodylocation.hat": {
+      "term": "ItemBodyLocation.HAT",
+      "description": "Body location slot: ItemBodyLocation.HAT"
+    },
+    "itembodylocation.jacket": {
+      "term": "ItemBodyLocation.JACKET",
+      "description": "Body location slot: ItemBodyLocation.JACKET"
+    },
+    "itembodylocation.jacket_hat": {
+      "term": "ItemBodyLocation.JACKET_HAT",
+      "description": "Body location slot: ItemBodyLocation.JACKET_HAT"
+    },
+    "itembodylocation.jacket_hat_bulky": {
+      "term": "ItemBodyLocation.JACKET_HAT_BULKY",
+      "description": "Body location slot: ItemBodyLocation.JACKET_HAT_BULKY"
+    },
+    "itembodylocation.jacket_suit": {
+      "term": "ItemBodyLocation.JACKET_SUIT",
+      "description": "Body location slot: ItemBodyLocation.JACKET_SUIT"
+    },
+    "itembodylocation.jacket_bulky": {
+      "term": "ItemBodyLocation.JACKET_BULKY",
+      "description": "Body location slot: ItemBodyLocation.JACKET_BULKY"
+    },
+    "itembodylocation.jacket_down": {
+      "term": "ItemBodyLocation.JACKET_DOWN",
+      "description": "Body location slot: ItemBodyLocation.JACKET_DOWN"
+    },
+    "itembodylocation.jersey": {
+      "term": "ItemBodyLocation.JERSEY",
+      "description": "Body location slot: ItemBodyLocation.JERSEY"
+    },
+    "itembodylocation.knee_left": {
+      "term": "ItemBodyLocation.KNEE_LEFT",
+      "description": "Body location slot: ItemBodyLocation.KNEE_LEFT"
+    },
+    "itembodylocation.knee_right": {
+      "term": "ItemBodyLocation.KNEE_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.KNEE_RIGHT"
+    },
+    "itembodylocation.left_arm": {
+      "term": "ItemBodyLocation.LEFT_ARM",
+      "description": "Body location slot: ItemBodyLocation.LEFT_ARM"
+    },
+    "itembodylocation.left_eye": {
+      "term": "ItemBodyLocation.LEFT_EYE",
+      "description": "Body location slot: ItemBodyLocation.LEFT_EYE"
+    },
+    "itembodylocation.left_wrist": {
+      "term": "ItemBodyLocation.LEFT_WRIST",
+      "description": "Body location slot: ItemBodyLocation.LEFT_WRIST"
+    },
+    "itembodylocation.left_middle_finger": {
+      "term": "ItemBodyLocation.LEFT_MIDDLE_FINGER",
+      "description": "Body location slot: ItemBodyLocation.LEFT_MIDDLE_FINGER"
+    },
+    "itembodylocation.left_ring_finger": {
+      "term": "ItemBodyLocation.LEFT_RING_FINGER",
+      "description": "Body location slot: ItemBodyLocation.LEFT_RING_FINGER"
+    },
+    "itembodylocation.legs1": {
+      "term": "ItemBodyLocation.LEGS1",
+      "description": "Body location slot: ItemBodyLocation.LEGS1"
+    },
+    "itembodylocation.legs5": {
+      "term": "ItemBodyLocation.LEGS5",
+      "description": "Body location slot: ItemBodyLocation.LEGS5"
+    },
+    "itembodylocation.long_dress": {
+      "term": "ItemBodyLocation.LONG_DRESS",
+      "description": "Body location slot: ItemBodyLocation.LONG_DRESS"
+    },
+    "itembodylocation.long_skirt": {
+      "term": "ItemBodyLocation.LONG_SKIRT",
+      "description": "Body location slot: ItemBodyLocation.LONG_SKIRT"
+    },
+    "itembodylocation.make_up_eyes": {
+      "term": "ItemBodyLocation.MAKE_UP_EYES",
+      "description": "Body location slot: ItemBodyLocation.MAKE_UP_EYES"
+    },
+    "itembodylocation.make_up_eyes_shadow": {
+      "term": "ItemBodyLocation.MAKE_UP_EYES_SHADOW",
+      "description": "Body location slot: ItemBodyLocation.MAKE_UP_EYES_SHADOW"
+    },
+    "itembodylocation.make_up_full_face": {
+      "term": "ItemBodyLocation.MAKE_UP_FULL_FACE",
+      "description": "Body location slot: ItemBodyLocation.MAKE_UP_FULL_FACE"
+    },
+    "itembodylocation.make_up_lips": {
+      "term": "ItemBodyLocation.MAKE_UP_LIPS",
+      "description": "Body location slot: ItemBodyLocation.MAKE_UP_LIPS"
+    },
+    "itembodylocation.mask": {
+      "term": "ItemBodyLocation.MASK",
+      "description": "Body location slot: ItemBodyLocation.MASK"
+    },
+    "itembodylocation.mask_eyes": {
+      "term": "ItemBodyLocation.MASK_EYES",
+      "description": "Body location slot: ItemBodyLocation.MASK_EYES"
+    },
+    "itembodylocation.mask_full": {
+      "term": "ItemBodyLocation.MASK_FULL",
+      "description": "Body location slot: ItemBodyLocation.MASK_FULL"
+    },
+    "itembodylocation.neck": {
+      "term": "ItemBodyLocation.NECK",
+      "description": "Body location slot: ItemBodyLocation.NECK"
+    },
+    "itembodylocation.neck_texture": {
+      "term": "ItemBodyLocation.NECK_TEXTURE",
+      "description": "Body location slot: ItemBodyLocation.NECK_TEXTURE"
+    },
+    "itembodylocation.necklace": {
+      "term": "ItemBodyLocation.NECKLACE",
+      "description": "Body location slot: ItemBodyLocation.NECKLACE"
+    },
+    "itembodylocation.necklace_long": {
+      "term": "ItemBodyLocation.NECKLACE_LONG",
+      "description": "Body location slot: ItemBodyLocation.NECKLACE_LONG"
+    },
+    "itembodylocation.nose": {
+      "term": "ItemBodyLocation.NOSE",
+      "description": "Body location slot: ItemBodyLocation.NOSE"
+    },
+    "itembodylocation.pants": {
+      "term": "ItemBodyLocation.PANTS",
+      "description": "Body location slot: ItemBodyLocation.PANTS"
+    },
+    "itembodylocation.pants_extra": {
+      "term": "ItemBodyLocation.PANTS_EXTRA",
+      "description": "Body location slot: ItemBodyLocation.PANTS_EXTRA"
+    },
+    "itembodylocation.pants_skinny": {
+      "term": "ItemBodyLocation.PANTS_SKINNY",
+      "description": "Body location slot: ItemBodyLocation.PANTS_SKINNY"
+    },
+    "itembodylocation.right_arm": {
+      "term": "ItemBodyLocation.RIGHT_ARM",
+      "description": "Body location slot: ItemBodyLocation.RIGHT_ARM"
+    },
+    "itembodylocation.right_eye": {
+      "term": "ItemBodyLocation.RIGHT_EYE",
+      "description": "Body location slot: ItemBodyLocation.RIGHT_EYE"
+    },
+    "itembodylocation.right_wrist": {
+      "term": "ItemBodyLocation.RIGHT_WRIST",
+      "description": "Body location slot: ItemBodyLocation.RIGHT_WRIST"
+    },
+    "itembodylocation.right_middle_finger": {
+      "term": "ItemBodyLocation.RIGHT_MIDDLE_FINGER",
+      "description": "Body location slot: ItemBodyLocation.RIGHT_MIDDLE_FINGER"
+    },
+    "itembodylocation.right_ring_finger": {
+      "term": "ItemBodyLocation.RIGHT_RING_FINGER",
+      "description": "Body location slot: ItemBodyLocation.RIGHT_RING_FINGER"
+    },
+    "itembodylocation.scba": {
+      "term": "ItemBodyLocation.SCBA",
+      "description": "Body location slot: ItemBodyLocation.SCBA"
+    },
+    "itembodylocation.scbanotank": {
+      "term": "ItemBodyLocation.SCBANOTANK",
+      "description": "Body location slot: ItemBodyLocation.SCBANOTANK"
+    },
+    "itembodylocation.satchel": {
+      "term": "ItemBodyLocation.SATCHEL",
+      "description": "Body location slot: ItemBodyLocation.SATCHEL"
+    },
+    "itembodylocation.scarf": {
+      "term": "ItemBodyLocation.SCARF",
+      "description": "Body location slot: ItemBodyLocation.SCARF"
+    },
+    "itembodylocation.shirt": {
+      "term": "ItemBodyLocation.SHIRT",
+      "description": "Body location slot: ItemBodyLocation.SHIRT"
+    },
+    "itembodylocation.shoes": {
+      "term": "ItemBodyLocation.SHOES",
+      "description": "Body location slot: ItemBodyLocation.SHOES"
+    },
+    "itembodylocation.short_pants": {
+      "term": "ItemBodyLocation.SHORT_PANTS",
+      "description": "Body location slot: ItemBodyLocation.SHORT_PANTS"
+    },
+    "itembodylocation.short_sleeve_shirt": {
+      "term": "ItemBodyLocation.SHORT_SLEEVE_SHIRT",
+      "description": "Body location slot: ItemBodyLocation.SHORT_SLEEVE_SHIRT"
+    },
+    "itembodylocation.shorts_short": {
+      "term": "ItemBodyLocation.SHORTS_SHORT",
+      "description": "Body location slot: ItemBodyLocation.SHORTS_SHORT"
+    },
+    "itembodylocation.shoulder_holster": {
+      "term": "ItemBodyLocation.SHOULDER_HOLSTER",
+      "description": "Body location slot: ItemBodyLocation.SHOULDER_HOLSTER"
+    },
+    "itembodylocation.shoulderpad_left": {
+      "term": "ItemBodyLocation.SHOULDERPAD_LEFT",
+      "description": "Body location slot: ItemBodyLocation.SHOULDERPAD_LEFT"
+    },
+    "itembodylocation.shoulderpad_right": {
+      "term": "ItemBodyLocation.SHOULDERPAD_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.SHOULDERPAD_RIGHT"
+    },
+    "itembodylocation.skirt": {
+      "term": "ItemBodyLocation.SKIRT",
+      "description": "Body location slot: ItemBodyLocation.SKIRT"
+    },
+    "itembodylocation.socks": {
+      "term": "ItemBodyLocation.SOCKS",
+      "description": "Body location slot: ItemBodyLocation.SOCKS"
+    },
+    "itembodylocation.sport_shoulderpad": {
+      "term": "ItemBodyLocation.SPORT_SHOULDERPAD",
+      "description": "Body location slot: ItemBodyLocation.SPORT_SHOULDERPAD"
+    },
+    "itembodylocation.sport_shoulderpad_on_top": {
+      "term": "ItemBodyLocation.SPORT_SHOULDERPAD_ON_TOP",
+      "description": "Body location slot: ItemBodyLocation.SPORT_SHOULDERPAD_ON_TOP"
+    },
+    "itembodylocation.sweater": {
+      "term": "ItemBodyLocation.SWEATER",
+      "description": "Body location slot: ItemBodyLocation.SWEATER"
+    },
+    "itembodylocation.sweater_hat": {
+      "term": "ItemBodyLocation.SWEATER_HAT",
+      "description": "Body location slot: ItemBodyLocation.SWEATER_HAT"
+    },
+    "itembodylocation.tail": {
+      "term": "ItemBodyLocation.TAIL",
+      "description": "Body location slot: ItemBodyLocation.TAIL"
+    },
+    "itembodylocation.tank_top": {
+      "term": "ItemBodyLocation.TANK_TOP",
+      "description": "Body location slot: ItemBodyLocation.TANK_TOP"
+    },
+    "itembodylocation.thigh_left": {
+      "term": "ItemBodyLocation.THIGH_LEFT",
+      "description": "Body location slot: ItemBodyLocation.THIGH_LEFT"
+    },
+    "itembodylocation.thigh_right": {
+      "term": "ItemBodyLocation.THIGH_RIGHT",
+      "description": "Body location slot: ItemBodyLocation.THIGH_RIGHT"
+    },
+    "itembodylocation.torso1": {
+      "term": "ItemBodyLocation.TORSO1",
+      "description": "Body location slot: ItemBodyLocation.TORSO1"
+    },
+    "itembodylocation.torso1legs1": {
+      "term": "ItemBodyLocation.TORSO1LEGS1",
+      "description": "Body location slot: ItemBodyLocation.TORSO1LEGS1"
+    },
+    "itembodylocation.torso_extra": {
+      "term": "ItemBodyLocation.TORSO_EXTRA",
+      "description": "Body location slot: ItemBodyLocation.TORSO_EXTRA"
+    },
+    "itembodylocation.torso_extra_vest": {
+      "term": "ItemBodyLocation.TORSO_EXTRA_VEST",
+      "description": "Body location slot: ItemBodyLocation.TORSO_EXTRA_VEST"
+    },
+    "itembodylocation.torso_extra_vest_bullet": {
+      "term": "ItemBodyLocation.TORSO_EXTRA_VEST_BULLET",
+      "description": "Body location slot: ItemBodyLocation.TORSO_EXTRA_VEST_BULLET"
+    },
+    "itembodylocation.tshirt": {
+      "term": "ItemBodyLocation.TSHIRT",
+      "description": "Body location slot: ItemBodyLocation.TSHIRT"
+    },
+    "itembodylocation.underwear": {
+      "term": "ItemBodyLocation.UNDERWEAR",
+      "description": "Body location slot: ItemBodyLocation.UNDERWEAR"
+    },
+    "itembodylocation.underwear_bottom": {
+      "term": "ItemBodyLocation.UNDERWEAR_BOTTOM",
+      "description": "Body location slot: ItemBodyLocation.UNDERWEAR_BOTTOM"
+    },
+    "itembodylocation.underwear_extra1": {
+      "term": "ItemBodyLocation.UNDERWEAR_EXTRA1",
+      "description": "Body location slot: ItemBodyLocation.UNDERWEAR_EXTRA1"
+    },
+    "itembodylocation.underwear_extra2": {
+      "term": "ItemBodyLocation.UNDERWEAR_EXTRA2",
+      "description": "Body location slot: ItemBodyLocation.UNDERWEAR_EXTRA2"
+    },
+    "itembodylocation.underwear_top": {
+      "term": "ItemBodyLocation.UNDERWEAR_TOP",
+      "description": "Body location slot: ItemBodyLocation.UNDERWEAR_TOP"
+    },
+    "itembodylocation.vest_texture": {
+      "term": "ItemBodyLocation.VEST_TEXTURE",
+      "description": "Body location slot: ItemBodyLocation.VEST_TEXTURE"
+    },
+    "itembodylocation.webbing": {
+      "term": "ItemBodyLocation.WEBBING",
+      "description": "Body location slot: ItemBodyLocation.WEBBING"
+    },
+    "itembodylocation.wound": {
+      "term": "ItemBodyLocation.WOUND",
+      "description": "Body location slot: ItemBodyLocation.WOUND"
+    }
+  },
+  "recipe_flags": {
+    "prop1": {
+      "term": "Prop1",
+      "description": "Item held in primary hand during timed action animation"
+    },
+    "prop2": {
+      "term": "Prop2",
+      "description": "Item held in secondary hand during timed action animation"
+    },
+    "maydegradelight": {
+      "term": "MayDegradeLight",
+      "description": "Tool has a chance to lose a small amount of durability"
+    },
+    "maydegradeheavy": {
+      "term": "MayDegradeHeavy",
+      "description": "Tool has a high chance to lose significant durability"
+    },
+    "allowdestroyeditem": {
+      "term": "AllowDestroyedItem",
+      "description": "Allows using a broken or 0-condition item as input"
+    },
+    "notfull": {
+      "term": "NotFull",
+      "description": "Item must not be completely full (e.g. for filling fluid/fuel)"
+    },
+    "allowfavorite": {
+      "term": "AllowFavorite",
+      "description": "Allows crafting even if the item is marked as favorite"
+    },
+    "inheritfavorite": {
+      "term": "InheritFavorite",
+      "description": "Output item inherits the favorite status of the input"
+    },
+    "itemcount": {
+      "term": "ItemCount",
+      "description": "Matches input based on internal item count or stack"
+    }
+  },
+  "recipe_tags": {
+    "inhandcraft": {
+      "term": "InHandCraft",
+      "description": "Can be crafted directly from hands without standing near a surface"
+    },
+    "anysurfacecraft": {
+      "term": "AnySurfaceCraft",
+      "description": "Requires a flat surface or tabletop nearby"
+    },
+    "canbedoneindark": {
+      "term": "CanBeDoneInDark",
+      "description": "Player does not require a light source to craft"
+    },
+    "canbedonefromfloor": {
+      "term": "CanBeDoneFromFloor",
+      "description": "Input items can be pulled directly from adjacent floor tiles"
+    },
+    "heatsource": {
+      "term": "HeatSource",
+      "description": "Requires an active heat source (campfire, stove, oven, forge)"
+    },
+    "cookable": {
+      "term": "Cookable",
+      "description": "Evolves or finishes through cooking heat"
+    },
+    "saw": {
+      "term": "Saw",
+      "description": "Carpentry recipe requiring a saw"
+    },
+    "sharpknife": {
+      "term": "SharpKnife",
+      "description": "Requires a cutting or carving knife"
+    },
+    "blacksmithing": {
+      "term": "Blacksmithing",
+      "description": "Requires forge or metalworking station"
+    }
+  },
+  "translation_types": {
+    "itemname": {
+      "term": "ItemName",
+      "description": "Item display names in translations/<LANG>/ItemName_<LANG>.json (Key format: Module.ItemID)"
+    },
+    "recipes": {
+      "term": "Recipes",
+      "description": "Recipe display names in translations/<LANG>/Recipes_<LANG>.json (Key format: RecipeID)"
+    },
+    "ui": {
+      "term": "UI",
+      "description": "General UI labels, headers, and tooltips in UI_<LANG>.json"
+    },
+    "contextmenu": {
+      "term": "ContextMenu",
+      "description": "Right-click context menu options in ContextMenu_<LANG>.json (Key prefix: ContextMenu_)"
+    },
+    "bodyparts": {
+      "term": "BodyParts",
+      "description": "Body part names in BodyParts_<LANG>.json (Key prefix: BODYPART_)"
+    },
+    "attributes": {
+      "term": "Attributes",
+      "description": "Character attributes and stat tooltips in Attributes_<LANG>.json"
+    },
+    "sandbox": {
+      "term": "Sandbox",
+      "description": "Custom sandbox options in Sandbox_<LANG>.json (Key prefix: Sandbox_)"
+    },
+    "multiplayer": {
+      "term": "Multiplayer",
+      "description": "Server and multiplayer UI localizations in Multiplayer_<LANG>.json"
+    }
+  }
+}
